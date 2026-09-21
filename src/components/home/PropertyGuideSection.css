@@ -1,0 +1,43 @@
+.resource-section {
+  margin-bottom: 90px;
+}
+
+.resource-section:last-child {
+  margin-bottom: 0;
+}
+
+.resource-section h2 {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 800;
+  color: #1C2430;
+  margin: 0 0 8px;
+  letter-spacing: -0.01em;
+}
+
+.resource-section > p {
+  font-size: 16px;
+  color: #6B7280;
+  margin: 0 0 32px;
+}
+
+.guide-card {
+  background: #FFFFFF;
+  border: 1px solid #E7E3DC;
+  border-radius: 16px;
+  padding: 22px 24px;
+}
+
+.guide-card h3 {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 700;
+  font-size: 17px;
+  color: #1C2430;
+  margin: 0 0 8px;
+}
+
+.guide-card p {
+  font-size: 14.5px;
+  color: #6B7280;
+  line-height: 1.65;
+  margin: 0;
+}

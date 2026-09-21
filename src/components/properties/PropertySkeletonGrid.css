@@ -1,0 +1,27 @@
+.skeleton-card {
+  border-radius: 20px;
+  overflow: hidden;
+  background: #FFFFFF;
+  border: 1px solid #E7E3DC;
+}
+
+.skeleton-image {
+  aspect-ratio: 4 / 3;
+  background: linear-gradient(90deg, #EFECE4 0%, #F7F5F0 50%, #EFECE4 100%);
+  background-size: 800px 100%;
+  animation: havenly-shimmer 1.4s infinite linear;
+}
+
+.skeleton-body {
+  padding: 18px 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.skeleton-line {
+  border-radius: 6px;
+  background: linear-gradient(90deg, #EFECE4 0%, #F7F5F0 50%, #EFECE4 100%);
+  background-size: 800px 100%;
+  animation: havenly-shimmer 1.4s infinite linear;
+}

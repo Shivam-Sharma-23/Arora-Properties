@@ -1,0 +1,30 @@
+.blog-card {
+  background: #FFFFFF;
+  border: 1px solid #E7E3DC;
+  border-radius: 16px;
+  padding: 24px;
+}
+
+.blog-card .blog-meta {
+  font-size: 12.5px;
+  color: #8A8F98;
+  margin: 0 0 8px;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+  font-weight: 600;
+}
+
+.blog-card h3 {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 700;
+  font-size: 18px;
+  color: #1C2430;
+  margin: 0 0 10px;
+}
+
+.blog-card p.blog-excerpt {
+  font-size: 14.5px;
+  color: #6B7280;
+  line-height: 1.65;
+  margin: 0;
+}

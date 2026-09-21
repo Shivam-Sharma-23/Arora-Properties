@@ -1,0 +1,16 @@
+export const PROPERTY_TYPES = ['Villa', 'Apartment', 'Penthouse', 'Independent House', 'Studio'];
+export const BATHROOM_OPTIONS = ['1', '2', '3', '4+'];
+export const BALCONY_OPTIONS = ['0', '1', '2', '3', '4+'];
+export const FURNISHING_OPTIONS = ['Fully Furnished', 'Semi Furnished', 'Unfurnished'];
+export const PARKING_OPTIONS = ['0', '1', '2', '3', '3+'];
+export const TENANT_OPTIONS = ['Family', 'Bachelors', 'Company'];
+export const BACHELOR_OPTIONS = ['Men Only', 'Women Only', 'Both'];
+export const YES_NO_OPTIONS = ['Yes', 'No'];
+export const MAINTENANCE_OPTIONS = ['Included in Rent', 'Separate'];
+export const DEPOSIT_OPTIONS = ['None', '1 Month', '2 Months', 'Custom'];
+export const LOCKIN_OPTIONS = ['None', '1 Month', '6 Months', 'Custom'];
+export const BROKERAGE_OPTIONS = ['None', '15 Days', '30 Days', 'Custom'];
+export const PARKING_CHARGE_OPTIONS = ['Included in Rent', 'Separate'];
+export const PAINTING_OPTIONS = ['None', 'As Per Cost', '1 Month', 'Custom'];
+export const FACING_OPTIONS = ['North', 'South', 'East', 'West', 'North-East', 'North-West', 'South-East', 'South-West'];
+export const PHOTO_CATEGORIES = ['Bedroom', 'Bathroom', 'Kitchen', 'Toilet', 'Living Room', 'Balcony', 'Parking', 'Exterior', 'Other'];

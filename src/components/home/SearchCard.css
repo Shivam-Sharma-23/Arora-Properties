@@ -1,0 +1,94 @@
+.search-card-wrap {
+  max-width: 1100px;
+  margin: -92px auto 0;
+  padding: 0 24px;
+  position: relative;
+  z-index: 10;
+  animation: havenly-fade-up .7s .1s ease both;
+}
+
+.search-card {
+  background: #FFFFFF;
+  border-radius: 22px;
+  box-shadow: 0 30px 60px -20px rgba(28, 36, 48, 0.28);
+  padding: 10px;
+  border: 1px solid #EFEBE3;
+}
+
+.search-tabs {
+  display: flex;
+  gap: 6px;
+  padding: 8px 8px 14px;
+}
+
+.search-tab {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all .2s ease;
+  background: transparent;
+  color: #6B7280;
+}
+
+.search-tab.active {
+  background: #1C2430;
+  color: #fff;
+}
+
+.search-fields {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr auto;
+  gap: 10px;
+  padding: 0 8px 8px;
+}
+
+.search-field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 10px 16px;
+  border: 1px solid #E7E3DC;
+  border-radius: 14px;
+}
+
+.search-field label {
+  font-size: 11px;
+  font-weight: 600;
+  color: #8A8F98;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+}
+
+.search-field input,
+.search-field select {
+  border: none;
+  outline: none;
+  font-size: 15px;
+  color: #1C2430;
+  font-weight: 500;
+  background: transparent;
+}
+
+.search-submit {
+  background: #2F6F62;
+  color: #fff;
+  border: none;
+  border-radius: 14px;
+  padding: 0 26px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  transition: background .2s ease;
+  white-space: nowrap;
+}
+
+.search-submit:hover {
+  background: #24564C;
+}

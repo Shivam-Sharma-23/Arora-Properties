@@ -1,0 +1,66 @@
+.mnd-backdrop {
+  position: fixed;
+  inset: 0;
+  z-index: 200;
+  background: rgba(28, 36, 48, 0.4);
+  animation: havenly-fade-in .2s ease;
+}
+
+.mnd-panel {
+  position: absolute;
+  top: 0;
+  right: 0;
+  width: 82%;
+  max-width: 340px;
+  height: 100%;
+  background: #FFFFFF;
+  box-shadow: -8px 0 30px rgba(28, 36, 48, 0.15);
+  padding: 26px 26px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.mnd-close-row {
+  display: flex;
+  justify-content: flex-end;
+  margin-bottom: 12px;
+}
+
+.mnd-close-btn {
+  background: #F1EEE8;
+  border: none;
+  border-radius: 50%;
+  width: 36px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+}
+
+.mnd-link {
+  cursor: pointer;
+  padding: 14px 4px;
+  border-bottom: 1px solid #F1EEE8;
+  font-size: 16px;
+  font-weight: 600;
+  color: #1C2430;
+  background: none;
+  border-left: none;
+  border-right: none;
+  border-top: none;
+  text-align: left;
+}
+
+.mnd-cta {
+  margin-top: 18px;
+  background: #1C2430;
+  color: #fff;
+  border: none;
+  padding: 14px;
+  border-radius: 100px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+}

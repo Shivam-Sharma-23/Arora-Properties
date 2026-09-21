@@ -1,0 +1,84 @@
+.pf-bar {
+  background: #FFFFFF;
+  border: 1px solid #E7E3DC;
+  border-radius: 22px;
+  padding: 24px;
+  margin-bottom: 32px;
+}
+
+.pf-tabs {
+  display: flex;
+  gap: 6px;
+  margin-bottom: 16px;
+  max-width: 220px;
+}
+
+.pf-tab {
+  flex: 1;
+  padding: 12px;
+  border: none;
+  border-radius: 12px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: all .2s ease;
+  background: transparent;
+  color: #6B7280;
+}
+
+.pf-tab.active {
+  background: #1C2430;
+  color: #fff;
+}
+
+.pf-fields {
+  display: grid;
+  grid-template-columns: 1.4fr 1fr 1fr 1fr auto;
+  gap: 10px;
+}
+
+.pf-field {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 10px 16px;
+  border: 1px solid #E7E3DC;
+  border-radius: 14px;
+}
+
+.pf-field label {
+  font-size: 11px;
+  font-weight: 600;
+  color: #8A8F98;
+  text-transform: uppercase;
+  letter-spacing: .04em;
+}
+
+.pf-field input,
+.pf-field select {
+  border: none;
+  outline: none;
+  font-size: 15px;
+  color: #1C2430;
+  font-weight: 500;
+  background: transparent;
+}
+
+.pf-search-btn {
+  background: #2F6F62;
+  color: #fff;
+  border: none;
+  border-radius: 14px;
+  padding: 0 26px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  white-space: nowrap;
+}
+
+.pf-search-btn:hover {
+  background: #24564C;
+}

@@ -1,0 +1,22 @@
+:root {
+  --bg: #FAF9F5;
+  --navy: #1C2430;
+  --green: #2F6F62;
+  --green-hover: #24564C;
+  --green-hover-alt: #255a4f;
+  --green-tint: #E7F0EC;
+  --text-secondary: #3F4753;
+  --text-muted: #6B7280;
+  --text-faint: #8A8F98;
+  --border: #E7E3DC;
+  --border-light: #F1EEE8;
+  --border-search: #EFEBE3;
+  --section-alt-bg: #F4F1EA;
+  --dot-inactive: #DDD8CC;
+  --error: #C0453A;
+  --success: #7ED9B8;
+  --whatsapp: #25D366;
+  --map-bg: #EAEFE8;
+  --map-road: #D6DED2;
+  --white: #FFFFFF;
+}

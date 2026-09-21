@@ -1,0 +1,59 @@
+@import './tokens.css';
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  font-family: 'Inter', sans-serif;
+  -webkit-font-smoothing: antialiased;
+}
+
+a {
+  color: var(--green);
+  text-decoration: none;
+}
+
+a:hover {
+  color: var(--green-hover);
+}
+
+::selection {
+  background: var(--green-tint);
+}
+
+input, select, button, textarea {
+  font-family: 'Inter', sans-serif;
+}
+
+button {
+  font: inherit;
+}
+
+@keyframes havenly-fade-up {
+  from { opacity: 0; transform: translateY(18px); }
+  to { opacity: 1; transform: translateY(0); }
+}
+
+@keyframes havenly-fade-in {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+@keyframes havenly-toast-in {
+  from { opacity: 0; transform: translate(-50%, 12px); }
+  to { opacity: 1; transform: translate(-50%, 0); }
+}
+
+@keyframes havenly-heart-pop {
+  0% { transform: scale(1); }
+  40% { transform: scale(1.35); }
+  100% { transform: scale(1); }
+}
+
+@keyframes havenly-shimmer {
+  0% { background-position: -400px 0; }
+  100% { background-position: 400px 0; }
+}

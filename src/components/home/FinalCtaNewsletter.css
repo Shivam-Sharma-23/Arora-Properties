@@ -1,0 +1,122 @@
+.final-cta {
+  background: #1C2430;
+  padding: 100px 32px;
+}
+
+.final-cta-inner {
+  max-width: 820px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.final-cta-inner h2 {
+  font-family: 'Manrope', sans-serif;
+  font-weight: 800;
+  font-size: clamp(28px, 4.4vw, 42px);
+  color: #fff;
+  margin: 0 0 16px;
+  letter-spacing: -0.01em;
+}
+
+.final-cta-inner > p {
+  font-size: 17px;
+  color: rgba(255, 255, 255, 0.75);
+  margin: 0 0 36px;
+}
+
+.final-cta-buttons {
+  display: flex;
+  gap: 14px;
+  justify-content: center;
+  margin-bottom: 64px;
+  flex-wrap: wrap;
+}
+
+.final-cta-primary {
+  background: #2F6F62;
+  color: #fff;
+  border: none;
+  padding: 15px 30px;
+  border-radius: 100px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: background .2s ease;
+}
+
+.final-cta-primary:hover {
+  background: #255a4f;
+}
+
+.final-cta-secondary {
+  background: transparent;
+  color: #fff;
+  border: 1.5px solid rgba(255, 255, 255, 0.35);
+  padding: 15px 30px;
+  border-radius: 100px;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  transition: border-color .2s ease;
+}
+
+.final-cta-secondary:hover {
+  border-color: rgba(255, 255, 255, 0.8);
+}
+
+.newsletter-block {
+  border-top: 1px solid rgba(255, 255, 255, 0.12);
+  padding-top: 44px;
+}
+
+.newsletter-block > p {
+  font-size: 16px;
+  color: #fff;
+  font-weight: 600;
+  margin: 0 0 18px;
+}
+
+.newsletter-success {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  background: rgba(47, 111, 98, 0.2);
+  color: #7ED9B8;
+  padding: 14px 22px;
+  border-radius: 100px;
+  font-size: 14px;
+  font-weight: 600;
+}
+
+.newsletter-form {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  max-width: 440px;
+  margin: 0 auto;
+  flex-wrap: wrap;
+}
+
+.newsletter-input {
+  flex: 1;
+  min-width: 200px;
+  background: rgba(255, 255, 255, 0.08);
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 100px;
+  padding: 13px 20px;
+  color: #fff;
+  font-size: 14px;
+  outline: none;
+}
+
+.newsletter-submit {
+  background: #fff;
+  color: #1C2430;
+  border: none;
+  padding: 13px 26px;
+  border-radius: 100px;
+  font-size: 14px;
+  font-weight: 700;
+  cursor: pointer;
+  white-space: nowrap;
+}
