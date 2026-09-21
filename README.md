@@ -1,16 +1,33 @@
-# React + Vite
+# Arora Properties
 
-This template provides a minimal setup to get React working in Vite with HMR and some Oxlint rules.
+A real-estate listing web app built with React + Vite, migrated from an original static HTML mockup and extended with a full admin CMS.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Oxc](https://oxc.rs)
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/)
+- **Public site**: home page with hero/search, property listings with search/filter/sort, property detail pages with a photo gallery, favorites (persisted locally), agent/location/testimonial/FAQ/blog sections, WhatsApp contact links, and schedule-visit / contact-agent forms.
+- **Admin panel** (`/admin`): a dashboard, full property management (multi-step add/edit wizard with photos, highlights, and review step), homepage content management (hero, popular locations, experts), FAQ and blog CMS, and review moderation. Admin edits apply immediately to the public site.
 
-## React Compiler
+See [`MIGRATION_NOTES.md`](./MIGRATION_NOTES.md) for details on what was ported, what was simplified, and known limitations.
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## Getting Started
 
-## Expanding the Oxlint configuration
+```bash
+npm install
+npm run dev
+```
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and Oxlint's TypeScript related rules in your project.
+The public site runs at the printed local URL; the admin panel is at `/admin` (development-only password gate — see `MIGRATION_NOTES.md` for the password).
+
+## Tech Stack
+
+- React 19 + Vite
+- React Router
+- Plain CSS (no UI framework) — component-colocated stylesheets plus shared design tokens
+- No backend — content is persisted to `localStorage` via a single data-context layer designed to be swapped for a real API later
+
+## Scripts
+
+- `npm run dev` — start the development server
+- `npm run build` — production build
+- `npm run preview` — preview the production build locally
+- `npm run lint` — run Oxlint
