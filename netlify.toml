@@ -1,0 +1,10 @@
+[build]
+  command = "npm run build"
+  publish = "dist"
+
+# The app is a client-side routed SPA (react-router). Serve index.html for any
+# path that isn't a real file so deep links like /properties or /admin work.
+[[redirects]]
+  from = "/*"
+  to = "/index.html"
+  status = 200
