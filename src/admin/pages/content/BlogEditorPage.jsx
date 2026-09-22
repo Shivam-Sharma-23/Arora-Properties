@@ -4,6 +4,7 @@ import { useAdminData } from '../../context/AdminDataContext';
 import { useToast } from '../../../hooks/useToast';
 import FormField from '../../components/FormField';
 import { IconUpload } from '../../components/icons';
+import { registerImageFile } from '../../utils/pendingImages';
 
 const MAX_CONTENT = 8000;
 
@@ -28,7 +29,7 @@ export default function BlogEditorPage() {
 
   const handleImage = (file) => {
     if (!file || !file.type.startsWith('image/')) return;
-    setForm((f) => ({ ...f, coverImage: URL.createObjectURL(file) }));
+    setForm((f) => ({ ...f, coverImage: registerImageFile(file) }));
   };
 
   const persist = (status) => {

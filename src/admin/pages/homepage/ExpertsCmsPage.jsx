@@ -6,6 +6,7 @@ import ConfirmDeleteModal from '../../components/ConfirmDeleteModal';
 import FormField from '../../components/FormField';
 import EmptyState from '../../components/EmptyState';
 import { IconPlusCircle, IconEdit, IconTrash, IconArrowUp, IconArrowDown, IconUsers, IconUpload, IconStar } from '../../components/icons';
+import { registerImageFile } from '../../utils/pendingImages';
 
 function RatingInput({ value, onChange }) {
   return (
@@ -28,7 +29,7 @@ function ExpertModal({ initial, onCancel, onSave }) {
 
   const handleImage = (file) => {
     if (!file || !file.type.startsWith('image/')) return;
-    setForm((f) => ({ ...f, photo: URL.createObjectURL(file) }));
+    setForm((f) => ({ ...f, photo: registerImageFile(file) }));
   };
 
   return (

@@ -3,6 +3,7 @@ import { useAdminData } from '../../context/AdminDataContext';
 import { useToast } from '../../../hooks/useToast';
 import FormField from '../../components/FormField';
 import { IconUpload, IconTrash } from '../../components/icons';
+import { registerImageFile } from '../../utils/pendingImages';
 
 export default function HeroCmsPage() {
   const { hero, updateHero } = useAdminData();
@@ -12,7 +13,7 @@ export default function HeroCmsPage() {
 
   const handleImage = (file) => {
     if (!file || !file.type.startsWith('image/')) return;
-    setForm((f) => ({ ...f, image: URL.createObjectURL(file) }));
+    setForm((f) => ({ ...f, image: registerImageFile(file) }));
   };
 
   const handleSave = () => {

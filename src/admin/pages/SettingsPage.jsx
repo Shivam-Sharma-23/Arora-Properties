@@ -21,17 +21,18 @@ export default function SettingsPage() {
       <div className="admin-card">
         <h3 className="admin-card-title">Persistence</h3>
         <p style={{ fontSize: 13.5, color: '#6B7280' }}>
-          All content is currently stored in this browser's <code>localStorage</code> — there is no backend yet.
-          Data is read and written through a single context (<code>AdminDataContext</code>), so it can later be
-          swapped for real API calls without changing any page components.
+          Publishing a change (Hero, Locations, Experts, FAQs, Reviews, and Publish/Delete for Properties &amp; Blog)
+          commits it straight to the GitHub repo via a Netlify Function, which triggers a redeploy — live for
+          everyone in roughly 1-2 minutes. Draft properties/blog posts stay local to this browser until published.
         </p>
       </div>
 
       <div className="admin-card">
-        <h3 className="admin-card-title">Development Access</h3>
+        <h3 className="admin-card-title">Admin Access</h3>
         <p style={{ fontSize: 13.5, color: '#6B7280' }}>
-          The admin panel is protected by a development-only password gate (not real authentication).
-          Current password: <code>{DEV_ADMIN_PASSWORD}</code>
+          Sign-in is verified server-side by the <code>admin-login</code> Netlify Function against the
+          <code> ADMIN_PASSWORD</code> environment variable. Local dev fallback (used only if that function is
+          unreachable, e.g. <code>vite dev</code> without <code>netlify dev</code>): <code>{DEV_ADMIN_PASSWORD}</code>
         </p>
       </div>
 

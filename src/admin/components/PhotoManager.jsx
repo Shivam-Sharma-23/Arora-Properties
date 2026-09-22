@@ -1,6 +1,7 @@
 import { useRef, useState } from 'react';
 import { IconUpload, IconTrash, IconCheck } from './icons';
 import { generateId } from '../utils/id';
+import { registerImageFile } from '../utils/pendingImages';
 
 const MAX_SIZE = 8 * 1024 * 1024;
 
@@ -27,7 +28,7 @@ export default function PhotoManager({ photos, onChange, maxPhotos = 20 }) {
         setError('"' + file.name + '" is larger than 8MB.');
         continue;
       }
-      accepted.push({ id: generateId('photo'), url: URL.createObjectURL(file), category: 'Other', isCover: false });
+      accepted.push({ id: generateId('photo'), url: registerImageFile(file), category: 'Other', isCover: false });
     }
     if (!accepted.length) return;
     setError('');

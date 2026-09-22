@@ -23,7 +23,24 @@ The public site runs at the printed local URL; the admin panel is at `/admin` (d
 - React 19 + Vite
 - React Router
 - Plain CSS (no UI framework) — component-colocated stylesheets plus shared design tokens
-- No backend — content is persisted to `localStorage` via a single data-context layer designed to be swapped for a real API later
+- Netlify Functions + the GitHub API — admin saves commit content and uploaded images straight into this repo (`src/data/siteContent.json`, `public/uploads/`), which triggers a Netlify redeploy. See "Admin persistence" below.
+
+## Admin persistence
+
+Publishing an edit in `/admin` (Hero, Locations, Experts, FAQs, Reviews, and Publish/Delete for Properties & Blog)
+POSTs to a Netlify Function (`netlify/functions/save-content.js`), which commits the updated content plus any newly
+uploaded images to this GitHub repo in a single commit, using the Git Data API (`netlify/functions/_github.js`).
+That push triggers Netlify's normal auto-deploy, so the change is live for every visitor after the build finishes
+(roughly 1-2 minutes) — not just in the browser that made the edit. Draft properties/blog posts stay local
+(`localStorage`) until published, matching the existing draft/publish workflow.
+
+Admin sign-in is verified server-side by `netlify/functions/admin-login.js` against the `ADMIN_PASSWORD`
+environment variable, returning a short-lived signed token (`TOKEN_SECRET`) required by `save-content`. Required
+Netlify environment variables: `GITHUB_TOKEN` (a fine-grained PAT scoped to this repo, Contents: Read & Write),
+`GITHUB_OWNER`, `GITHUB_REPO`, `GITHUB_BRANCH`, `ADMIN_PASSWORD`, `TOKEN_SECRET`.
+
+Run `netlify dev` (not just `vite dev`) locally to exercise the functions end-to-end; without it, admin login falls
+back to a local-only password (see `AdminGuard.jsx`) and publishing will fail until a real login succeeds.
 
 ## Scripts
 
