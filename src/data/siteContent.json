@@ -1,800 +1,237 @@
 {
   "properties": [
     {
-      "id": 1,
-      "title": "Modern Glass Villa",
-      "type": "Villa",
-      "buyRent": "buy",
-      "location": "Gurgaon, Haryana",
-      "bedrooms": 4,
-      "bathrooms": 5,
-      "rating": 4.9,
-      "featured": true,
-      "agentId": 1,
-      "buildupArea": 4200,
-      "carpetArea": 3570,
-      "age": 2,
-      "yearBuilt": 2024,
-      "balconies": 1,
-      "furnishingType": "Semi Furnished",
-      "coveredParking": 1,
-      "openParking": 0,
-      "tenantPreference": "Family",
-      "bachelorPreference": null,
-      "petFriendly": true,
-      "availableFrom": "",
-      "price": 48000000,
-      "priceLabel": "₹4.8 Cr",
-      "maintenanceCharges": "Included in Rent",
-      "maintenanceAmount": null,
-      "securityDeposit": "2 Months",
-      "securityDepositCustom": null,
-      "lockInPeriod": "None",
-      "lockInCustom": null,
-      "brokerage": "None",
-      "brokerageCustom": null,
-      "brokerageNegotiable": "No",
-      "carpetAreaConfirmed": true,
-      "parkingCharges": "Included in Rent",
-      "parkingChargesAmount": null,
-      "paintingCharges": "None",
-      "paintingChargesAmount": null,
-      "facing": "North",
-      "address": {
-        "flat": "",
-        "building": "",
-        "street": "",
-        "locality": "",
-        "city": "Gurgaon, Haryana",
-        "state": "",
-        "pincode": ""
-      },
-      "servantRoom": "No",
-      "description": "Luxury contemporary villa with expansive glass walls, landscaped gardens and premium interiors.",
-      "photos": [
-        {
-          "id": "photo-mucyz8jm-1",
-          "url": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1400&q=80",
-          "category": "Exterior",
-          "isCover": true
-        },
-        {
-          "id": "photo-mucyz8jm-2",
-          "url": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1400&q=80",
-          "category": "Other",
-          "isCover": false
-        },
-        {
-          "id": "photo-mucyz8jm-3",
-          "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1400&q=80",
-          "category": "Other",
-          "isCover": false
-        },
-        {
-          "id": "photo-mucyz8jm-4",
-          "url": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1400&q=80",
-          "category": "Other",
-          "isCover": false
-        }
-      ],
-      "photoVerification": {},
-      "highlights": {
-        "locationConnectivity": [],
-        "amenitiesWellness": [
-          {
-            "id": "hl-mucyz8jm-5",
-            "label": "Swimming Pool"
-          },
-          {
-            "id": "hl-mucyz8jm-6",
-            "label": "Gym"
-          },
-          {
-            "id": "hl-mucyz8jm-8",
-            "label": "Garden"
-          }
-        ],
-        "propertyFeatures": [
-          {
-            "id": "hl-mucyz8jm-7",
-            "label": "Smart Home"
-          },
-          {
-            "id": "hl-mucyz8jm-a",
-            "label": "Balcony"
-          },
-          {
-            "id": "hl-mucyz8jm-b",
-            "label": "Modular Kitchen"
-          }
-        ],
-        "securityFeatures": [
-          {
-            "id": "hl-mucyz8jm-9",
-            "label": "24x7 Security"
-          }
-        ]
-      },
-      "status": "published",
-      "createdAt": "2026-01-15T09:00:00.000Z",
-      "updatedAt": "2026-01-15T09:00:00.000Z"
-    },
-    {
-      "id": 2,
-      "title": "The Urban Residence",
-      "type": "Apartment",
-      "buyRent": "buy",
-      "location": "Noida, Uttar Pradesh",
-      "bedrooms": 3,
-      "bathrooms": 2,
-      "rating": 4.7,
-      "featured": true,
-      "agentId": 2,
-      "buildupArea": 1850,
-      "carpetArea": 1573,
-      "age": 4,
-      "yearBuilt": 2022,
-      "balconies": 1,
-      "furnishingType": "Semi Furnished",
-      "coveredParking": 1,
-      "openParking": 0,
-      "tenantPreference": "Family",
-      "bachelorPreference": null,
-      "petFriendly": false,
-      "availableFrom": "",
-      "price": 23500000,
-      "priceLabel": "₹2.35 Cr",
-      "maintenanceCharges": "Included in Rent",
-      "maintenanceAmount": null,
-      "securityDeposit": "2 Months",
-      "securityDepositCustom": null,
-      "lockInPeriod": "None",
-      "lockInCustom": null,
-      "brokerage": "None",
-      "brokerageCustom": null,
-      "brokerageNegotiable": "No",
-      "carpetAreaConfirmed": true,
-      "parkingCharges": "Included in Rent",
-      "parkingChargesAmount": null,
-      "paintingCharges": "None",
-      "paintingChargesAmount": null,
-      "facing": "North",
-      "address": {
-        "flat": "",
-        "building": "",
-        "street": "",
-        "locality": "",
-        "city": "Noida, Uttar Pradesh",
-        "state": "",
-        "pincode": ""
-      },
-      "servantRoom": "No",
-      "description": "Contemporary apartment in a well-connected community, finished with clean lines and abundant natural light.",
-      "photos": [
-        {
-          "id": "photo-mucyz8jm-c",
-          "url": "https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=1400&q=80",
-          "category": "Exterior",
-          "isCover": true
-        },
-        {
-          "id": "photo-mucyz8jm-d",
-          "url": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1400&q=80",
-          "category": "Other",
-          "isCover": false
-        },
-        {
-          "id": "photo-mucyz8jm-e",
-          "url": "https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?auto=format&fit=crop&w=1400&q=80",
-          "category": "Other",
-          "isCover": false
-        }
-      ],
-      "photoVerification": {},
-      "highlights": {
-        "locationConnectivity": [],
-        "amenitiesWellness": [
-          {
-            "id": "hl-mucyz8jm-f",
-            "label": "Gym"
-          }
-        ],
-        "propertyFeatures": [
-          {
-            "id": "hl-mucyz8jm-h",
-            "label": "Balcony"
-          },
-          {
-            "id": "hl-mucyz8jm-i",
-            "label": "Modular Kitchen"
-          }
-        ],
-        "securityFeatures": [
-          {
-            "id": "hl-mucyz8jm-g",
-            "label": "24x7 Security"
-          }
-        ]
-      },
-      "status": "published",
-      "createdAt": "2026-01-15T09:00:00.000Z",
-      "updatedAt": "2026-01-15T09:00:00.000Z"
-    },
-    {
-      "id": 3,
-      "title": "Palm Heights",
-      "type": "Penthouse",
-      "buyRent": "buy",
-      "location": "Delhi",
-      "bedrooms": 3,
-      "bathrooms": 3,
-      "rating": 4.8,
-      "featured": true,
-      "agentId": 3,
-      "buildupArea": 2600,
-      "carpetArea": 2210,
-      "age": 3,
-      "yearBuilt": 2023,
-      "balconies": 1,
-      "furnishingType": "Semi Furnished",
-      "coveredParking": 1,
-      "openParking": 0,
-      "tenantPreference": "Family",
-      "bachelorPreference": null,
-      "petFriendly": true,
-      "availableFrom": "",
-      "price": 32000000,
-      "priceLabel": "₹3.2 Cr",
-      "maintenanceCharges": "Included in Rent",
-      "maintenanceAmount": null,
-      "securityDeposit": "2 Months",
-      "securityDepositCustom": null,
-      "lockInPeriod": "None",
-      "lockInCustom": null,
-      "brokerage": "None",
-      "brokerageCustom": null,
-      "brokerageNegotiable": "No",
-      "carpetAreaConfirmed": true,
-      "parkingCharges": "Included in Rent",
-      "parkingChargesAmount": null,
-      "paintingCharges": "None",
-      "paintingChargesAmount": null,
-      "facing": "North",
-      "address": {
-        "flat": "",
-        "building": "",
-        "street": "",
-        "locality": "",
-        "city": "Delhi",
-        "state": "",
-        "pincode": ""
-      },
-      "servantRoom": "No",
-      "description": "Elevated penthouse living with panoramic city views, private terrace and designer fittings throughout.",
-      "photos": [
-        {
-          "id": "photo-mucyz8jm-j",
-          "url": "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=1400&q=80",
-          "category": "Exterior",
-          "isCover": true
-        },
-        {
-          "id": "photo-mucyz8jm-k",
-          "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1400&q=80",
-          "category": "Other",
-          "isCover": false
-        },
-        {
-          "id": "photo-mucyz8jm-l",
-          "url": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1400&q=80",
-          "category": "Other",
-          "isCover": false
-        }
-      ],
-      "photoVerification": {},
-      "highlights": {
-        "locationConnectivity": [],
-        "amenitiesWellness": [
-          {
-            "id": "hl-mucyz8jm-m",
-            "label": "Swimming Pool"
-          },
-          {
-            "id": "hl-mucyz8jm-n",
-            "label": "Gym"
-          }
-        ],
-        "propertyFeatures": [
-          {
-            "id": "hl-mucyz8jm-p",
-            "label": "Balcony"
-          }
-        ],
-        "securityFeatures": [
-          {
-            "id": "hl-mucyz8jm-o",
-            "label": "24x7 Security"
-          }
-        ]
-      },
-      "status": "published",
-      "createdAt": "2026-01-15T09:00:00.000Z",
-      "updatedAt": "2026-01-15T09:00:00.000Z"
-    },
-    {
-      "id": 4,
-      "title": "Skyline Penthouse",
-      "type": "Penthouse",
-      "buyRent": "buy",
-      "location": "Mumbai, Maharashtra",
-      "bedrooms": 4,
-      "bathrooms": 4,
-      "rating": 5,
-      "featured": true,
-      "agentId": 2,
-      "buildupArea": 3800,
-      "carpetArea": 3230,
-      "age": 2,
-      "yearBuilt": 2024,
-      "balconies": 1,
-      "furnishingType": "Semi Furnished",
-      "coveredParking": 1,
-      "openParking": 0,
-      "tenantPreference": "Family",
-      "bachelorPreference": null,
-      "petFriendly": true,
-      "availableFrom": "",
-      "price": 65000000,
-      "priceLabel": "₹6.5 Cr",
-      "maintenanceCharges": "Included in Rent",
-      "maintenanceAmount": null,
-      "securityDeposit": "2 Months",
-      "securityDepositCustom": null,
-      "lockInPeriod": "None",
-      "lockInCustom": null,
-      "brokerage": "None",
-      "brokerageCustom": null,
-      "brokerageNegotiable": "No",
-      "carpetAreaConfirmed": true,
-      "parkingCharges": "Included in Rent",
-      "parkingChargesAmount": null,
-      "paintingCharges": "None",
-      "paintingChargesAmount": null,
-      "facing": "North",
-      "address": {
-        "flat": "",
-        "building": "",
-        "street": "",
-        "locality": "",
-        "city": "Mumbai, Maharashtra",
-        "state": "",
-        "pincode": ""
-      },
-      "servantRoom": "No",
-      "description": "A statement residence above the city skyline, with floor-to-ceiling glazing and a private plunge pool.",
-      "photos": [
-        {
-          "id": "photo-mucyz8jm-q",
-          "url": "https://images.unsplash.com/photo-1522708323590-d24dbb6b0267?auto=format&fit=crop&w=1400&q=80",
-          "category": "Exterior",
-          "isCover": true
-        },
-        {
-          "id": "photo-mucyz8jm-r",
-          "url": "https://images.unsplash.com/photo-1600596542815-ffad4c1539a9?auto=format&fit=crop&w=1400&q=80",
-          "category": "Other",
-          "isCover": false
-        },
-        {
-          "id": "photo-mucyz8jm-s",
-          "url": "https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?auto=format&fit=crop&w=1400&q=80",
-          "category": "Other",
-          "isCover": false
-        }
-      ],
-      "photoVerification": {},
-      "highlights": {
-        "locationConnectivity": [],
-        "amenitiesWellness": [
-          {
-            "id": "hl-mucyz8jm-t",
-            "label": "Swimming Pool"
-          },
-          {
-            "id": "hl-mucyz8jm-u",
-            "label": "Gym"
-          }
-        ],
-        "propertyFeatures": [
-          {
-            "id": "hl-mucyz8jm-v",
-            "label": "Smart Home"
-          },
-          {
-            "id": "hl-mucyz8jm-x",
-            "label": "Balcony"
-          },
-          {
-            "id": "hl-mucyz8jm-y",
-            "label": "Modular Kitchen"
-          }
-        ],
-        "securityFeatures": [
-          {
-            "id": "hl-mucyz8jm-w",
-            "label": "24x7 Security"
-          }
-        ]
-      },
-      "status": "published",
-      "createdAt": "2026-01-15T09:00:00.000Z",
-      "updatedAt": "2026-01-15T09:00:00.000Z"
-    },
-    {
-      "id": 5,
-      "title": "Garden View Residence",
-      "type": "Apartment",
+      "title": "2 BHK Independent Floor in Preet Vihar",
+      "type": "Independent House",
       "buyRent": "rent",
-      "location": "Bangalore, Karnataka",
-      "bedrooms": 2,
-      "bathrooms": 2,
-      "rating": 4.6,
+      "location": "Preet Vihar, Delhi",
+      "bedrooms": 1,
+      "agentId": 0,
+      "rating": 4.5,
       "featured": true,
-      "agentId": 3,
-      "buildupArea": 1400,
-      "carpetArea": 1190,
-      "age": 5,
-      "yearBuilt": 2021,
-      "balconies": 1,
-      "furnishingType": "Semi Furnished",
-      "coveredParking": 1,
-      "openParking": 0,
+      "buildupArea": "700",
+      "carpetArea": "",
+      "age": "2",
+      "bathrooms": "2",
+      "balconies": "1",
+      "furnishingType": "Fully Furnished",
+      "coveredParking": "0",
+      "openParking": "0",
       "tenantPreference": "Family",
       "bachelorPreference": null,
-      "petFriendly": true,
-      "availableFrom": "",
-      "price": 850000,
-      "priceLabel": "₹85,000/mo",
+      "petFriendly": "Yes",
+      "availableFrom": "2026-06-29",
+      "price": "24998",
       "maintenanceCharges": "Included in Rent",
-      "maintenanceAmount": null,
-      "securityDeposit": "2 Months",
-      "securityDepositCustom": null,
+      "maintenanceAmount": "",
+      "securityDeposit": "1 Month",
+      "securityDepositCustom": "",
       "lockInPeriod": "None",
-      "lockInCustom": null,
-      "brokerage": "None",
-      "brokerageCustom": null,
-      "brokerageNegotiable": "No",
-      "carpetAreaConfirmed": true,
+      "lockInCustom": "",
+      "brokerage": "30 Days",
+      "brokerageCustom": "",
+      "brokerageNegotiable": "Yes",
       "parkingCharges": "Included in Rent",
-      "parkingChargesAmount": null,
+      "parkingChargesAmount": "",
       "paintingCharges": "None",
-      "paintingChargesAmount": null,
-      "facing": "North",
+      "paintingChargesAmount": "",
+      "facing": "North-East",
       "address": {
         "flat": "",
         "building": "",
         "street": "",
         "locality": "",
-        "city": "Bangalore, Karnataka",
+        "city": "",
         "state": "",
-        "pincode": ""
+        "pincode": "110096"
       },
       "servantRoom": "No",
-      "description": "Bright, garden-facing apartment in a quiet residential enclave, ideal for long-term tenants.",
+      "description": "",
       "photos": [
         {
-          "id": "photo-mucyz8jm-z",
-          "url": "https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=1400&q=80",
-          "category": "Exterior",
+          "id": "photo-mud0tsfo-28",
+          "url": "blob:https://weblynk-arora-properties.netlify.app/f4a5312b-03a3-4033-a29e-7bfa01697821",
+          "category": "Kitchen",
+          "isCover": false
+        },
+        {
+          "id": "photo-mud0tsfq-2a",
+          "url": "blob:https://weblynk-arora-properties.netlify.app/dfed37f0-abfa-4c4d-a833-7a36de2d120a",
+          "category": "Kitchen",
+          "isCover": false
+        },
+        {
+          "id": "photo-mud0tsfs-2c",
+          "url": "blob:https://weblynk-arora-properties.netlify.app/5b475c99-2de2-474f-9ddf-1d4169c44559",
+          "category": "Bedroom",
+          "isCover": false
+        },
+        {
+          "id": "photo-mud0tsft-2e",
+          "url": "blob:https://weblynk-arora-properties.netlify.app/eeeb1c19-95be-4c63-9c94-3a2cae404788",
+          "category": "Bedroom",
           "isCover": true
         },
         {
-          "id": "photo-mucyz8jm-10",
-          "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1400&q=80",
+          "id": "photo-mud0tsfu-2g",
+          "url": "blob:https://weblynk-arora-properties.netlify.app/748133f9-e251-4cb5-85d6-fa6565782910",
+          "category": "Bedroom",
+          "isCover": false
+        },
+        {
+          "id": "photo-mud0tsfv-2i",
+          "url": "blob:https://weblynk-arora-properties.netlify.app/083b1c21-b408-409a-94a4-16b7a551264c",
+          "category": "Bedroom",
+          "isCover": false
+        },
+        {
+          "id": "photo-mud0tsfv-2k",
+          "url": "blob:https://weblynk-arora-properties.netlify.app/10d2ad0e-76cf-4f86-b703-ae4bbf5c59dc",
+          "category": "Toilet",
+          "isCover": false
+        },
+        {
+          "id": "photo-mud0tsfx-2m",
+          "url": "blob:https://weblynk-arora-properties.netlify.app/077449da-fe64-4e6e-95a9-7fdcac66bc1e",
           "category": "Other",
           "isCover": false
         },
         {
-          "id": "photo-mucyz8jm-11",
-          "url": "https://images.unsplash.com/photo-1600607687939-ce8a6c25118c?auto=format&fit=crop&w=1400&q=80",
-          "category": "Other",
+          "id": "photo-mud0tsfy-2o",
+          "url": "blob:https://weblynk-arora-properties.netlify.app/237ac7c5-9815-414e-9cd9-04023b783c66",
+          "category": "Bedroom",
           "isCover": false
         }
       ],
       "photoVerification": {},
       "highlights": {
         "locationConnectivity": [],
-        "amenitiesWellness": [
-          {
-            "id": "hl-mucyz8jm-12",
-            "label": "Garden"
-          }
-        ],
+        "amenitiesWellness": [],
         "propertyFeatures": [
           {
-            "id": "hl-mucyz8jm-14",
-            "label": "Balcony"
-          }
-        ],
-        "securityFeatures": [
-          {
-            "id": "hl-mucyz8jm-13",
-            "label": "24x7 Security"
-          }
-        ]
-      },
-      "status": "published",
-      "createdAt": "2026-01-15T09:00:00.000Z",
-      "updatedAt": "2026-01-15T09:00:00.000Z"
-    },
-    {
-      "id": 6,
-      "title": "The Lake House",
-      "type": "Villa",
-      "buyRent": "buy",
-      "location": "Pune, Maharashtra",
-      "bedrooms": 4,
-      "bathrooms": 4,
-      "rating": 4.9,
-      "featured": true,
-      "agentId": 4,
-      "buildupArea": 3200,
-      "carpetArea": 2720,
-      "age": 3,
-      "yearBuilt": 2023,
-      "balconies": 1,
-      "furnishingType": "Semi Furnished",
-      "coveredParking": 1,
-      "openParking": 0,
-      "tenantPreference": "Family",
-      "bachelorPreference": null,
-      "petFriendly": true,
-      "availableFrom": "",
-      "price": 41000000,
-      "priceLabel": "₹4.1 Cr",
-      "maintenanceCharges": "Included in Rent",
-      "maintenanceAmount": null,
-      "securityDeposit": "2 Months",
-      "securityDepositCustom": null,
-      "lockInPeriod": "None",
-      "lockInCustom": null,
-      "brokerage": "None",
-      "brokerageCustom": null,
-      "brokerageNegotiable": "No",
-      "carpetAreaConfirmed": true,
-      "parkingCharges": "Included in Rent",
-      "parkingChargesAmount": null,
-      "paintingCharges": "None",
-      "paintingChargesAmount": null,
-      "facing": "North",
-      "address": {
-        "flat": "",
-        "building": "",
-        "street": "",
-        "locality": "",
-        "city": "Pune, Maharashtra",
-        "state": "",
-        "pincode": ""
-      },
-      "servantRoom": "No",
-      "description": "Lakeside villa with a private dock, wraparound deck and interiors built for indoor-outdoor living.",
-      "photos": [
-        {
-          "id": "photo-mucyz8jm-15",
-          "url": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1400&q=80",
-          "category": "Exterior",
-          "isCover": true
-        },
-        {
-          "id": "photo-mucyz8jm-16",
-          "url": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1400&q=80",
-          "category": "Other",
-          "isCover": false
-        },
-        {
-          "id": "photo-mucyz8jm-17",
-          "url": "https://images.unsplash.com/photo-1600585154526-990dced4db0d?auto=format&fit=crop&w=1400&q=80",
-          "category": "Other",
-          "isCover": false
-        }
-      ],
-      "photoVerification": {},
-      "highlights": {
-        "locationConnectivity": [],
-        "amenitiesWellness": [
-          {
-            "id": "hl-mucyz8jm-18",
-            "label": "Swimming Pool"
+            "id": "hl-mud0vmzg-2q",
+            "label": "Good Cross ventilation"
           },
           {
-            "id": "hl-mucyz8jm-19",
-            "label": "Garden"
-          }
-        ],
-        "propertyFeatures": [
-          {
-            "id": "hl-mucyz8jm-1b",
-            "label": "Balcony"
+            "id": "hl-mud0vobb-2r",
+            "label": "Bachelor Friendly"
           },
           {
-            "id": "hl-mucyz8jm-1c",
-            "label": "Modular Kitchen"
-          }
-        ],
-        "securityFeatures": [
-          {
-            "id": "hl-mucyz8jm-1a",
-            "label": "24x7 Security"
-          }
-        ]
-      },
-      "status": "published",
-      "createdAt": "2026-01-15T09:00:00.000Z",
-      "updatedAt": "2026-01-15T09:00:00.000Z"
-    },
-    {
-      "id": 7,
-      "title": "Coastal Retreat Villa",
-      "type": "Villa",
-      "buyRent": "rent",
-      "location": "Goa",
-      "bedrooms": 3,
-      "bathrooms": 3,
-      "rating": 4.8,
-      "featured": false,
-      "agentId": 1,
-      "buildupArea": 2900,
-      "carpetArea": 2465,
-      "age": 4,
-      "yearBuilt": 2022,
-      "balconies": 1,
-      "furnishingType": "Semi Furnished",
-      "coveredParking": 1,
-      "openParking": 0,
-      "tenantPreference": "Family",
-      "bachelorPreference": null,
-      "petFriendly": true,
-      "availableFrom": "",
-      "price": 150000,
-      "priceLabel": "₹1,50,000/mo",
-      "maintenanceCharges": "Included in Rent",
-      "maintenanceAmount": null,
-      "securityDeposit": "2 Months",
-      "securityDepositCustom": null,
-      "lockInPeriod": "None",
-      "lockInCustom": null,
-      "brokerage": "None",
-      "brokerageCustom": null,
-      "brokerageNegotiable": "No",
-      "carpetAreaConfirmed": true,
-      "parkingCharges": "Included in Rent",
-      "parkingChargesAmount": null,
-      "paintingCharges": "None",
-      "paintingChargesAmount": null,
-      "facing": "North",
-      "address": {
-        "flat": "",
-        "building": "",
-        "street": "",
-        "locality": "",
-        "city": "Goa",
-        "state": "",
-        "pincode": ""
-      },
-      "servantRoom": "No",
-      "description": "Breezy coastal villa minutes from the beach, with an open-air courtyard and private plunge pool.",
-      "photos": [
-        {
-          "id": "photo-mucyz8jm-1d",
-          "url": "https://images.unsplash.com/photo-1523217582562-09d0def993a6?auto=format&fit=crop&w=1400&q=80",
-          "category": "Exterior",
-          "isCover": true
-        },
-        {
-          "id": "photo-mucyz8jm-1e",
-          "url": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1400&q=80",
-          "category": "Other",
-          "isCover": false
-        },
-        {
-          "id": "photo-mucyz8jm-1f",
-          "url": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=1400&q=80",
-          "category": "Other",
-          "isCover": false
-        }
-      ],
-      "photoVerification": {},
-      "highlights": {
-        "locationConnectivity": [],
-        "amenitiesWellness": [
-          {
-            "id": "hl-mucyz8jm-1g",
-            "label": "Swimming Pool"
+            "id": "hl-mud0vpj1-2s",
+            "label": "Natural Light"
           },
           {
-            "id": "hl-mucyz8jm-1h",
-            "label": "Garden"
-          }
-        ],
-        "propertyFeatures": [
-          {
-            "id": "hl-mucyz8jm-1i",
-            "label": "Balcony"
+            "id": "hl-mud0vuk2-2t",
+            "label": "Fresh Construction"
           }
         ],
         "securityFeatures": []
       },
       "status": "published",
-      "createdAt": "2026-01-15T09:00:00.000Z",
-      "updatedAt": "2026-01-15T09:00:00.000Z"
+      "id": 5,
+      "priceLabel": "₹24,998/mo",
+      "createdAt": "2026-09-22T18:43:56.531Z",
+      "updatedAt": "2026-09-22T18:43:56.531Z"
     },
     {
-      "id": 8,
-      "title": "City Center Loft",
-      "type": "Apartment",
+      "title": "3 BHK Independent Floor in Preet Vihar",
+      "type": "Independent House",
       "buyRent": "rent",
-      "location": "Hyderabad, Telangana",
-      "bedrooms": 2,
-      "bathrooms": 2,
+      "location": "Preet Vihar, Delhi",
+      "bedrooms": 1,
+      "agentId": 0,
       "rating": 4.5,
       "featured": false,
-      "agentId": 2,
-      "buildupArea": 1100,
-      "carpetArea": 935,
-      "age": 6,
-      "yearBuilt": 2020,
-      "balconies": 1,
+      "buildupArea": "1800",
+      "carpetArea": "",
+      "age": "3",
+      "bathrooms": "3",
+      "balconies": "2",
       "furnishingType": "Semi Furnished",
-      "coveredParking": 1,
-      "openParking": 0,
+      "coveredParking": "1",
+      "openParking": "1",
       "tenantPreference": "Family",
       "bachelorPreference": null,
-      "petFriendly": false,
-      "availableFrom": "",
-      "price": 65000,
-      "priceLabel": "₹65,000/mo",
+      "petFriendly": "Yes",
+      "availableFrom": "2026-06-29",
+      "price": "55000",
       "maintenanceCharges": "Included in Rent",
-      "maintenanceAmount": null,
-      "securityDeposit": "2 Months",
-      "securityDepositCustom": null,
+      "maintenanceAmount": "",
+      "securityDeposit": "1 Month",
+      "securityDepositCustom": "",
       "lockInPeriod": "None",
-      "lockInCustom": null,
-      "brokerage": "None",
-      "brokerageCustom": null,
-      "brokerageNegotiable": "No",
-      "carpetAreaConfirmed": true,
+      "lockInCustom": "",
+      "brokerage": "30 Days",
+      "brokerageCustom": "",
+      "brokerageNegotiable": "Yes",
       "parkingCharges": "Included in Rent",
-      "parkingChargesAmount": null,
+      "parkingChargesAmount": "",
       "paintingCharges": "None",
-      "paintingChargesAmount": null,
-      "facing": "North",
+      "paintingChargesAmount": "",
+      "facing": "North-East",
       "address": {
         "flat": "",
         "building": "",
         "street": "",
         "locality": "",
-        "city": "Hyderabad, Telangana",
+        "city": "",
         "state": "",
-        "pincode": ""
+        "pincode": "110096"
       },
       "servantRoom": "No",
-      "description": "Efficient city-center loft with smart storage and quick access to major business districts.",
+      "description": "",
       "photos": [
         {
-          "id": "photo-mucyz8jn-1j",
-          "url": "https://images.unsplash.com/photo-1600607687644-aac4c3eac7f4?auto=format&fit=crop&w=1400&q=80",
-          "category": "Exterior",
-          "isCover": true
-        },
-        {
-          "id": "photo-mucyz8jn-1k",
-          "url": "https://images.unsplash.com/photo-1554995207-c18c203602cb?auto=format&fit=crop&w=1400&q=80",
-          "category": "Other",
+          "id": "photo-mud0p11d-1n",
+          "url": "blob:https://weblynk-arora-properties.netlify.app/9d6655d8-6996-48ce-8c20-3d4fc8b9e59d",
+          "category": "Kitchen",
           "isCover": false
         },
         {
-          "id": "photo-mucyz8jn-1l",
-          "url": "https://images.unsplash.com/photo-1600047509807-ba8f99d2cdde?auto=format&fit=crop&w=1400&q=80",
+          "id": "photo-mud0p11e-1p",
+          "url": "blob:https://weblynk-arora-properties.netlify.app/be5eed0b-dc7e-428a-be7c-2d92892d49cd",
+          "category": "Kitchen",
+          "isCover": false
+        },
+        {
+          "id": "photo-mud0p11g-1r",
+          "url": "blob:https://weblynk-arora-properties.netlify.app/9ce4c348-bddb-4842-a227-c03415e5a0b4",
+          "category": "Kitchen",
+          "isCover": false
+        },
+        {
+          "id": "photo-mud0p11h-1t",
+          "url": "blob:https://weblynk-arora-properties.netlify.app/422d3d48-4362-42f9-b2e9-6445d1acd522",
+          "category": "Bedroom",
+          "isCover": false
+        },
+        {
+          "id": "photo-mud0p11j-1v",
+          "url": "blob:https://weblynk-arora-properties.netlify.app/419ea89e-d368-4579-9de0-b63e3c5164cc",
+          "category": "Bathroom",
+          "isCover": false
+        },
+        {
+          "id": "photo-mud0p11j-1x",
+          "url": "blob:https://weblynk-arora-properties.netlify.app/285cbaff-e9e1-4d92-8010-b7ff84de1889",
+          "category": "Toilet",
+          "isCover": false
+        },
+        {
+          "id": "photo-mud0p11k-1z",
+          "url": "blob:https://weblynk-arora-properties.netlify.app/b74eaeae-7e50-41f8-8abd-c2e49ba7bba2",
+          "category": "Other",
+          "isCover": true
+        },
+        {
+          "id": "photo-mud0p11m-21",
+          "url": "blob:https://weblynk-arora-properties.netlify.app/4abbeeb1-9981-4145-93e1-afcd4282106d",
+          "category": "Living Room",
+          "isCover": false
+        },
+        {
+          "id": "photo-mud0p11n-23",
+          "url": "blob:https://weblynk-arora-properties.netlify.app/499bbb99-bd31-4b25-b1e1-fcf754f7a293",
           "category": "Other",
           "isCover": false
         }
@@ -802,132 +239,403 @@
       "photoVerification": {},
       "highlights": {
         "locationConnectivity": [],
-        "amenitiesWellness": [
-          {
-            "id": "hl-mucyz8jn-1m",
-            "label": "Gym"
-          }
-        ],
-        "propertyFeatures": [],
-        "securityFeatures": [
-          {
-            "id": "hl-mucyz8jn-1n",
-            "label": "24x7 Security"
-          }
-        ]
-      },
-      "status": "published",
-      "createdAt": "2026-01-15T09:00:00.000Z",
-      "updatedAt": "2026-01-15T09:00:00.000Z"
-    },
-    {
-      "id": 9,
-      "title": "Hilltop Manor",
-      "type": "Villa",
-      "buyRent": "buy",
-      "location": "Bangalore, Karnataka",
-      "bedrooms": 5,
-      "bathrooms": 5,
-      "rating": 4.7,
-      "featured": false,
-      "agentId": 4,
-      "buildupArea": 4600,
-      "carpetArea": 3910,
-      "age": 7,
-      "yearBuilt": 2019,
-      "balconies": 1,
-      "furnishingType": "Semi Furnished",
-      "coveredParking": 1,
-      "openParking": 0,
-      "tenantPreference": "Family",
-      "bachelorPreference": null,
-      "petFriendly": true,
-      "availableFrom": "",
-      "price": 55000000,
-      "priceLabel": "₹5.5 Cr",
-      "maintenanceCharges": "Included in Rent",
-      "maintenanceAmount": null,
-      "securityDeposit": "2 Months",
-      "securityDepositCustom": null,
-      "lockInPeriod": "None",
-      "lockInCustom": null,
-      "brokerage": "None",
-      "brokerageCustom": null,
-      "brokerageNegotiable": "No",
-      "carpetAreaConfirmed": true,
-      "parkingCharges": "Included in Rent",
-      "parkingChargesAmount": null,
-      "paintingCharges": "None",
-      "paintingChargesAmount": null,
-      "facing": "North",
-      "address": {
-        "flat": "",
-        "building": "",
-        "street": "",
-        "locality": "",
-        "city": "Bangalore, Karnataka",
-        "state": "",
-        "pincode": ""
-      },
-      "servantRoom": "No",
-      "description": "Commanding hilltop manor set across two levels, with sweeping views and mature landscaped grounds.",
-      "photos": [
-        {
-          "id": "photo-mucyz8jn-1o",
-          "url": "https://images.unsplash.com/photo-1568605114967-8130f3a36994?auto=format&fit=crop&w=1400&q=80",
-          "category": "Exterior",
-          "isCover": true
-        },
-        {
-          "id": "photo-mucyz8jn-1p",
-          "url": "https://images.unsplash.com/photo-1523217582562-09d0def993a6?auto=format&fit=crop&w=1400&q=80",
-          "category": "Other",
-          "isCover": false
-        },
-        {
-          "id": "photo-mucyz8jn-1q",
-          "url": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=1400&q=80",
-          "category": "Other",
-          "isCover": false
-        }
-      ],
-      "photoVerification": {},
-      "highlights": {
-        "locationConnectivity": [],
-        "amenitiesWellness": [
-          {
-            "id": "hl-mucyz8jn-1r",
-            "label": "Swimming Pool"
-          },
-          {
-            "id": "hl-mucyz8jn-1s",
-            "label": "Gym"
-          },
-          {
-            "id": "hl-mucyz8jn-1t",
-            "label": "Garden"
-          }
-        ],
+        "amenitiesWellness": [],
         "propertyFeatures": [
           {
-            "id": "hl-mucyz8jn-1v",
-            "label": "Balcony"
+            "id": "hl-mud0qa2e-25",
+            "label": "Natural Light"
           },
           {
-            "id": "hl-mucyz8jn-1w",
-            "label": "Modular Kitchen"
+            "id": "hl-mud0qkit-26",
+            "label": "Open Space Around"
+          },
+          {
+            "id": "hl-mud0qlzj-27",
+            "label": "Fresh Construction"
           }
         ],
-        "securityFeatures": [
-          {
-            "id": "hl-mucyz8jn-1u",
-            "label": "24x7 Security"
-          }
-        ]
+        "securityFeatures": []
       },
       "status": "published",
-      "createdAt": "2026-01-15T09:00:00.000Z",
-      "updatedAt": "2026-01-15T09:00:00.000Z"
+      "id": 4,
+      "priceLabel": "₹55,000/mo",
+      "createdAt": "2026-09-22T18:39:47.373Z",
+      "updatedAt": "2026-09-22T18:39:47.373Z"
+    },
+    {
+      "title": "1 BHK Independent Floor in Jhilmil Colony",
+      "type": "Apartment",
+      "buyRent": "rent",
+      "location": "Jhilmil Colony, Delhi",
+      "bedrooms": 1,
+      "agentId": 0,
+      "rating": 4.5,
+      "featured": true,
+      "buildupArea": "500",
+      "carpetArea": "",
+      "age": "5",
+      "bathrooms": "1",
+      "balconies": "1",
+      "furnishingType": "Fully Furnished",
+      "coveredParking": "0",
+      "openParking": "1",
+      "tenantPreference": "Family",
+      "bachelorPreference": null,
+      "petFriendly": "Yes",
+      "availableFrom": "2026-06-29",
+      "price": "16000",
+      "maintenanceCharges": "Included in Rent",
+      "maintenanceAmount": "",
+      "securityDeposit": "1 Month",
+      "securityDepositCustom": "",
+      "lockInPeriod": "None",
+      "lockInCustom": "",
+      "brokerage": "30 Days",
+      "brokerageCustom": "",
+      "brokerageNegotiable": "Yes",
+      "parkingCharges": "Included in Rent",
+      "parkingChargesAmount": "",
+      "paintingCharges": "None",
+      "paintingChargesAmount": "",
+      "facing": "North-East",
+      "address": {
+        "flat": "",
+        "building": "",
+        "street": "",
+        "locality": "",
+        "city": "",
+        "state": "",
+        "pincode": "110095"
+      },
+      "servantRoom": "No",
+      "description": "",
+      "photos": [
+        {
+          "id": "photo-mud0khtf-13",
+          "url": "blob:https://weblynk-arora-properties.netlify.app/20fa26d3-08d7-4f42-8f11-253185402202",
+          "category": "Kitchen",
+          "isCover": false
+        },
+        {
+          "id": "photo-mud0khtf-15",
+          "url": "blob:https://weblynk-arora-properties.netlify.app/0afc1355-4cb7-4a9f-8a4f-8c3ea8034aa3",
+          "category": "Bedroom",
+          "isCover": false
+        },
+        {
+          "id": "photo-mud0khtf-17",
+          "url": "blob:https://weblynk-arora-properties.netlify.app/1c03577e-ab8a-4fd6-8d60-e61783fe9056",
+          "category": "Bedroom",
+          "isCover": false
+        },
+        {
+          "id": "photo-mud0khtg-19",
+          "url": "blob:https://weblynk-arora-properties.netlify.app/92d63661-de27-4552-8908-5c4ff2749d50",
+          "category": "Bedroom",
+          "isCover": false
+        },
+        {
+          "id": "photo-mud0khtg-1b",
+          "url": "blob:https://weblynk-arora-properties.netlify.app/c6c1b816-10b1-47d7-9a16-95d179b2e4ad",
+          "category": "Bedroom",
+          "isCover": false
+        },
+        {
+          "id": "photo-mud0khth-1d",
+          "url": "blob:https://weblynk-arora-properties.netlify.app/d8f2e126-ea5c-4c3c-9be9-9c9dfd2bb666",
+          "category": "Other",
+          "isCover": true
+        },
+        {
+          "id": "photo-mud0khth-1f",
+          "url": "blob:https://weblynk-arora-properties.netlify.app/c34fa826-db34-41d7-afb4-d4c46635cb23",
+          "category": "Bathroom",
+          "isCover": false
+        },
+        {
+          "id": "photo-mud0khti-1h",
+          "url": "blob:https://weblynk-arora-properties.netlify.app/eb3a7dd1-63cf-4ee8-912f-ea107ebe7da3",
+          "category": "Living Room",
+          "isCover": false
+        }
+      ],
+      "photoVerification": {},
+      "highlights": {
+        "locationConnectivity": [],
+        "amenitiesWellness": [],
+        "propertyFeatures": [
+          {
+            "id": "hl-mud0lve0-1j",
+            "label": "Natural Light"
+          },
+          {
+            "id": "hl-mud0m0mv-1k",
+            "label": "Good Cross ventilation"
+          },
+          {
+            "id": "hl-mud0m458-1l",
+            "label": "Bachelor Friendly"
+          },
+          {
+            "id": "hl-mud0m719-1m",
+            "label": "Fresh Construction"
+          }
+        ],
+        "securityFeatures": []
+      },
+      "status": "published",
+      "id": 3,
+      "priceLabel": "₹16,000/mo",
+      "createdAt": "2026-09-22T18:36:24.284Z",
+      "updatedAt": "2026-09-22T18:36:24.284Z"
+    },
+    {
+      "title": "1 BHK Independent Floor in Preet Vihar",
+      "type": "Independent House",
+      "buyRent": "rent",
+      "location": "Preet Vihar, Delhi",
+      "bedrooms": 1,
+      "agentId": 0,
+      "rating": 4.5,
+      "featured": true,
+      "buildupArea": "500",
+      "carpetArea": "",
+      "age": "5",
+      "bathrooms": "1",
+      "balconies": "1",
+      "furnishingType": "Semi Furnished",
+      "coveredParking": "0",
+      "openParking": "0",
+      "tenantPreference": "Family",
+      "bachelorPreference": null,
+      "petFriendly": "Yes",
+      "availableFrom": "2026-06-29",
+      "price": "20000",
+      "maintenanceCharges": "Included in Rent",
+      "maintenanceAmount": "",
+      "securityDeposit": "1 Month",
+      "securityDepositCustom": "",
+      "lockInPeriod": "None",
+      "lockInCustom": "",
+      "brokerage": "30 Days",
+      "brokerageCustom": "",
+      "brokerageNegotiable": "Yes",
+      "parkingCharges": "Included in Rent",
+      "parkingChargesAmount": "",
+      "paintingCharges": "None",
+      "paintingChargesAmount": "",
+      "facing": "North-East",
+      "address": {
+        "flat": "",
+        "building": "",
+        "street": "",
+        "locality": "",
+        "city": "",
+        "state": "",
+        "pincode": "110096"
+      },
+      "servantRoom": "No",
+      "description": "",
+      "photos": [
+        {
+          "id": "photo-mud0fnnq-l",
+          "url": "blob:https://weblynk-arora-properties.netlify.app/318f5c84-5dbe-4fd8-9b7c-b6a2eb63e062",
+          "category": "Living Room",
+          "isCover": false
+        },
+        {
+          "id": "photo-mud0fnnr-n",
+          "url": "blob:https://weblynk-arora-properties.netlify.app/076aee9d-56ed-4a74-9ef9-01ee038f97c0",
+          "category": "Bedroom",
+          "isCover": false
+        },
+        {
+          "id": "photo-mud0fnns-p",
+          "url": "blob:https://weblynk-arora-properties.netlify.app/4ebabe0a-c7d8-41be-bb51-4a045cad181e",
+          "category": "Other",
+          "isCover": false
+        },
+        {
+          "id": "photo-mud0fnns-r",
+          "url": "blob:https://weblynk-arora-properties.netlify.app/07938929-f00f-40c6-9cb6-94790ecc9040",
+          "category": "Toilet",
+          "isCover": false
+        },
+        {
+          "id": "photo-mud0fnns-t",
+          "url": "blob:https://weblynk-arora-properties.netlify.app/a14a193c-f8ba-4723-b515-d084d375f236",
+          "category": "Other",
+          "isCover": false
+        },
+        {
+          "id": "photo-mud0fnnt-v",
+          "url": "blob:https://weblynk-arora-properties.netlify.app/dfcadd42-c563-4606-b8cc-f97b09d4ce7a",
+          "category": "Other",
+          "isCover": true
+        },
+        {
+          "id": "photo-mud0fnnt-x",
+          "url": "blob:https://weblynk-arora-properties.netlify.app/2c50b490-81c6-46b1-9d7c-ea2f263b5422",
+          "category": "Kitchen",
+          "isCover": false
+        }
+      ],
+      "photoVerification": {},
+      "highlights": {
+        "locationConnectivity": [],
+        "amenitiesWellness": [],
+        "propertyFeatures": [
+          {
+            "id": "hl-mud0gsd4-z",
+            "label": "Natural Light"
+          },
+          {
+            "id": "hl-mud0h3tr-10",
+            "label": "Good Cross ventilation"
+          },
+          {
+            "id": "hl-mud0hafk-11",
+            "label": "Bachelor Friendly"
+          },
+          {
+            "id": "hl-mud0hgd0-12",
+            "label": "Fresh Construction"
+          }
+        ],
+        "securityFeatures": []
+      },
+      "status": "published",
+      "id": 2,
+      "priceLabel": "₹20,000/mo",
+      "createdAt": "2026-09-22T18:33:03.167Z",
+      "updatedAt": "2026-09-22T18:33:03.167Z"
+    },
+    {
+      "title": "2 BHK Independent Floor in Preet Vihar",
+      "type": "Independent House",
+      "buyRent": "rent",
+      "location": " Preet Vihar,Delhi",
+      "bedrooms": 1,
+      "agentId": 0,
+      "rating": 4.5,
+      "featured": true,
+      "buildupArea": "600",
+      "carpetArea": "",
+      "age": "4",
+      "bathrooms": "1",
+      "balconies": "1",
+      "furnishingType": "Semi Furnished",
+      "coveredParking": "0",
+      "openParking": "0",
+      "tenantPreference": "Family",
+      "bachelorPreference": null,
+      "petFriendly": "Yes",
+      "availableFrom": "2026-06-29",
+      "price": "25000",
+      "maintenanceCharges": "Included in Rent",
+      "maintenanceAmount": "",
+      "securityDeposit": "1 Month",
+      "securityDepositCustom": "",
+      "lockInPeriod": "None",
+      "lockInCustom": "",
+      "brokerage": "30 Days",
+      "brokerageCustom": "",
+      "brokerageNegotiable": "Yes",
+      "parkingCharges": "Included in Rent",
+      "parkingChargesAmount": "",
+      "paintingCharges": "None",
+      "paintingChargesAmount": "",
+      "facing": "North-East",
+      "address": {
+        "flat": "",
+        "building": "",
+        "street": "",
+        "locality": "",
+        "city": "",
+        "state": "",
+        "pincode": "110096"
+      },
+      "servantRoom": "No",
+      "description": "",
+      "photos": [
+        {
+          "id": "photo-muel8hqa-1",
+          "url": "/uploads/img-muel8hqa-2.avif",
+          "category": "Kitchen",
+          "isCover": false
+        },
+        {
+          "id": "photo-muel8hqb-3",
+          "url": "/uploads/img-muel8hqb-4.avif",
+          "category": "Kitchen",
+          "isCover": false
+        },
+        {
+          "id": "photo-muel8hqb-5",
+          "url": "/uploads/img-muel8hqb-6.avif",
+          "category": "Living Room",
+          "isCover": false
+        },
+        {
+          "id": "photo-muel8hqc-7",
+          "url": "/uploads/img-muel8hqc-8.avif",
+          "category": "Bedroom",
+          "isCover": false
+        },
+        {
+          "id": "photo-muel8hqc-9",
+          "url": "/uploads/img-muel8hqc-a.avif",
+          "category": "Bedroom",
+          "isCover": false
+        },
+        {
+          "id": "photo-muel8hqe-b",
+          "url": "/uploads/img-muel8hqe-c.avif",
+          "category": "Bedroom",
+          "isCover": false
+        },
+        {
+          "id": "photo-muel8hqf-d",
+          "url": "/uploads/img-muel8hqf-e.avif",
+          "category": "Toilet",
+          "isCover": false
+        },
+        {
+          "id": "photo-muel8hqg-f",
+          "url": "/uploads/img-muel8hqg-g.avif",
+          "category": "Other",
+          "isCover": true
+        }
+      ],
+      "photoVerification": {},
+      "highlights": {
+        "locationConnectivity": [],
+        "amenitiesWellness": [],
+        "propertyFeatures": [
+          {
+            "id": "hl-mud0c10t-h",
+            "label": "Natural Light"
+          },
+          {
+            "id": "hl-mud0c77q-i",
+            "label": "Good Cross ventilation"
+          },
+          {
+            "id": "hl-mud0cdjr-j",
+            "label": "Bachelor Friendly"
+          },
+          {
+            "id": "hl-mud0crgf-k",
+            "label": "Fresh Construction"
+          }
+        ],
+        "securityFeatures": []
+      },
+      "status": "published",
+      "id": 1,
+      "priceLabel": "₹25,000/mo",
+      "createdAt": "2026-09-22T18:29:01.664Z",
+      "updatedAt": "2026-09-23T21:02:12.267Z"
     }
   ],
   "locations": [
@@ -1109,6 +817,6 @@
     "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1600&q=80"
   },
   "_meta": {
-    "updatedAt": "2026-09-22T17:50:25.283Z"
+    "updatedAt": "2026-09-23T21:02:12.335Z"
   }
 }
