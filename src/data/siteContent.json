@@ -182,56 +182,56 @@
       "description": "",
       "photos": [
         {
-          "id": "photo-mud0p11d-1n",
-          "url": "blob:https://weblynk-arora-properties.netlify.app/9d6655d8-6996-48ce-8c20-3d4fc8b9e59d",
+          "id": "photo-muelibml-h",
+          "url": "/uploads/img-muelibml-i.avif",
           "category": "Kitchen",
           "isCover": false
         },
         {
-          "id": "photo-mud0p11e-1p",
-          "url": "blob:https://weblynk-arora-properties.netlify.app/be5eed0b-dc7e-428a-be7c-2d92892d49cd",
+          "id": "photo-muelibml-j",
+          "url": "/uploads/img-muelibml-k.avif",
           "category": "Kitchen",
           "isCover": false
         },
         {
-          "id": "photo-mud0p11g-1r",
-          "url": "blob:https://weblynk-arora-properties.netlify.app/9ce4c348-bddb-4842-a227-c03415e5a0b4",
+          "id": "photo-muelibmm-l",
+          "url": "/uploads/img-muelibmm-m.avif",
           "category": "Kitchen",
           "isCover": false
         },
         {
-          "id": "photo-mud0p11h-1t",
-          "url": "blob:https://weblynk-arora-properties.netlify.app/422d3d48-4362-42f9-b2e9-6445d1acd522",
+          "id": "photo-muelibmm-n",
+          "url": "/uploads/img-muelibmm-o.avif",
           "category": "Bedroom",
           "isCover": false
         },
         {
-          "id": "photo-mud0p11j-1v",
-          "url": "blob:https://weblynk-arora-properties.netlify.app/419ea89e-d368-4579-9de0-b63e3c5164cc",
+          "id": "photo-muelibmm-p",
+          "url": "/uploads/img-muelibmm-q.avif",
           "category": "Bathroom",
           "isCover": false
         },
         {
-          "id": "photo-mud0p11j-1x",
-          "url": "blob:https://weblynk-arora-properties.netlify.app/285cbaff-e9e1-4d92-8010-b7ff84de1889",
+          "id": "photo-muelibmn-r",
+          "url": "/uploads/img-muelibmn-s.avif",
           "category": "Toilet",
           "isCover": false
         },
         {
-          "id": "photo-mud0p11k-1z",
-          "url": "blob:https://weblynk-arora-properties.netlify.app/b74eaeae-7e50-41f8-8abd-c2e49ba7bba2",
-          "category": "Other",
+          "id": "photo-muelibmn-t",
+          "url": "/uploads/img-muelibmn-u.avif",
+          "category": "Bathroom",
           "isCover": true
         },
         {
-          "id": "photo-mud0p11m-21",
-          "url": "blob:https://weblynk-arora-properties.netlify.app/4abbeeb1-9981-4145-93e1-afcd4282106d",
-          "category": "Living Room",
+          "id": "photo-muelibmn-v",
+          "url": "/uploads/img-muelibmn-w.avif",
+          "category": "Bedroom",
           "isCover": false
         },
         {
-          "id": "photo-mud0p11n-23",
-          "url": "blob:https://weblynk-arora-properties.netlify.app/499bbb99-bd31-4b25-b1e1-fcf754f7a293",
+          "id": "photo-muelibmo-x",
+          "url": "/uploads/img-muelibmo-y.avif",
           "category": "Other",
           "isCover": false
         }
@@ -260,7 +260,7 @@
       "id": 4,
       "priceLabel": "₹55,000/mo",
       "createdAt": "2026-09-22T18:39:47.373Z",
-      "updatedAt": "2026-09-22T18:39:47.373Z"
+      "updatedAt": "2026-09-23T21:09:37.376Z"
     },
     {
       "title": "1 BHK Independent Floor in Jhilmil Colony",
@@ -817,6 +817,6 @@
     "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1600&q=80"
   },
   "_meta": {
-    "updatedAt": "2026-09-23T21:08:05.218Z"
+    "updatedAt": "2026-09-23T21:09:37.417Z"
   }
 }
