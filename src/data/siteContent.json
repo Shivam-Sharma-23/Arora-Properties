@@ -311,50 +311,50 @@
       "description": "",
       "photos": [
         {
-          "id": "photo-mueln6ah-1",
-          "url": "blob:https://weblynk-arora-properties.netlify.app/520a251b-08d3-4c45-8b94-c41c6d7c7b96",
+          "id": "photo-muelq9j5-1",
+          "url": "/uploads/img-muelq9j5-2.avif",
           "category": "Kitchen",
           "isCover": false
         },
         {
-          "id": "photo-mueln6ai-3",
-          "url": "blob:https://weblynk-arora-properties.netlify.app/d9323a17-43ff-4195-976d-c1fda8765908",
+          "id": "photo-muelq9j7-3",
+          "url": "/uploads/img-muelq9j7-4.avif",
           "category": "Bedroom",
           "isCover": false
         },
         {
-          "id": "photo-mueln6ai-5",
-          "url": "blob:https://weblynk-arora-properties.netlify.app/c5c37791-502b-4fb5-9a4b-1faa2ed37ec1",
+          "id": "photo-muelq9j8-5",
+          "url": "/uploads/img-muelq9j8-6.avif",
           "category": "Bedroom",
           "isCover": false
         },
         {
-          "id": "photo-mueln6ai-7",
-          "url": "blob:https://weblynk-arora-properties.netlify.app/2521ad47-a537-42ca-917b-2c7e1439747e",
+          "id": "photo-muelq9j9-7",
+          "url": "/uploads/img-muelq9j9-8.avif",
           "category": "Bedroom",
           "isCover": false
         },
         {
-          "id": "photo-mueln6ai-9",
-          "url": "blob:https://weblynk-arora-properties.netlify.app/0401b15b-b640-41c3-a8ba-bee2ad6f25b4",
+          "id": "photo-muelq9j9-9",
+          "url": "/uploads/img-muelq9j9-a.avif",
           "category": "Bedroom",
           "isCover": false
         },
         {
-          "id": "photo-mueln6aj-b",
-          "url": "blob:https://weblynk-arora-properties.netlify.app/2f368235-be1d-456f-aa73-3aadf1995cce",
+          "id": "photo-muelq9j9-b",
+          "url": "/uploads/img-muelq9j9-c.avif",
           "category": "Living Room",
           "isCover": true
         },
         {
-          "id": "photo-mueln6aj-d",
-          "url": "blob:https://weblynk-arora-properties.netlify.app/7f3d9011-2a82-4f81-93d1-d44578e4bd5c",
-          "category": "Bathroom",
+          "id": "photo-muelq9ja-d",
+          "url": "/uploads/img-muelq9ja-e.avif",
+          "category": "Toilet",
           "isCover": false
         },
         {
-          "id": "photo-mueln6aj-f",
-          "url": "blob:https://weblynk-arora-properties.netlify.app/7649149d-6ccf-4018-b32c-3ea8cd83c141",
+          "id": "photo-muelq9ja-f",
+          "url": "/uploads/img-muelq9ja-g.avif",
           "category": "Living Room",
           "isCover": false
         }
@@ -387,7 +387,7 @@
       "id": 3,
       "priceLabel": "₹16,000/mo",
       "createdAt": "2026-09-22T18:36:24.284Z",
-      "updatedAt": "2026-09-23T21:13:25.684Z"
+      "updatedAt": "2026-09-23T21:15:45.204Z"
     },
     {
       "title": "1 BHK Independent Floor in Preet Vihar",
@@ -817,6 +817,6 @@
     "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1600&q=80"
   },
   "_meta": {
-    "updatedAt": "2026-09-23T21:13:25.684Z"
+    "updatedAt": "2026-09-23T21:15:45.257Z"
   }
 }
