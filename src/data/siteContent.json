@@ -438,44 +438,44 @@
       "description": "",
       "photos": [
         {
-          "id": "photo-mud0fnnq-l",
-          "url": "blob:https://weblynk-arora-properties.netlify.app/318f5c84-5dbe-4fd8-9b7c-b6a2eb63e062",
+          "id": "photo-muelcwd4-1",
+          "url": "/uploads/img-muelcwd4-2.avif",
           "category": "Living Room",
           "isCover": false
         },
         {
-          "id": "photo-mud0fnnr-n",
-          "url": "blob:https://weblynk-arora-properties.netlify.app/076aee9d-56ed-4a74-9ef9-01ee038f97c0",
+          "id": "photo-muelcwd5-3",
+          "url": "/uploads/img-muelcwd5-4.avif",
           "category": "Bedroom",
           "isCover": false
         },
         {
-          "id": "photo-mud0fnns-p",
-          "url": "blob:https://weblynk-arora-properties.netlify.app/4ebabe0a-c7d8-41be-bb51-4a045cad181e",
+          "id": "photo-muelcwd5-5",
+          "url": "/uploads/img-muelcwd5-6.avif",
           "category": "Other",
           "isCover": false
         },
         {
-          "id": "photo-mud0fnns-r",
-          "url": "blob:https://weblynk-arora-properties.netlify.app/07938929-f00f-40c6-9cb6-94790ecc9040",
+          "id": "photo-muelcwd6-7",
+          "url": "/uploads/img-muelcwd6-8.avif",
           "category": "Toilet",
           "isCover": false
         },
         {
-          "id": "photo-mud0fnns-t",
-          "url": "blob:https://weblynk-arora-properties.netlify.app/a14a193c-f8ba-4723-b515-d084d375f236",
-          "category": "Other",
-          "isCover": false
-        },
-        {
-          "id": "photo-mud0fnnt-v",
-          "url": "blob:https://weblynk-arora-properties.netlify.app/dfcadd42-c563-4606-b8cc-f97b09d4ce7a",
+          "id": "photo-muelcwd6-9",
+          "url": "/uploads/img-muelcwd6-a.avif",
           "category": "Other",
           "isCover": true
         },
         {
-          "id": "photo-mud0fnnt-x",
-          "url": "blob:https://weblynk-arora-properties.netlify.app/2c50b490-81c6-46b1-9d7c-ea2f263b5422",
+          "id": "photo-muelcwd6-b",
+          "url": "/uploads/img-muelcwd6-c.avif",
+          "category": "Living Room",
+          "isCover": false
+        },
+        {
+          "id": "photo-muelcwd6-d",
+          "url": "/uploads/img-muelcwd6-e.avif",
           "category": "Kitchen",
           "isCover": false
         }
@@ -508,7 +508,7 @@
       "id": 2,
       "priceLabel": "₹20,000/mo",
       "createdAt": "2026-09-22T18:33:03.167Z",
-      "updatedAt": "2026-09-22T18:33:03.167Z"
+      "updatedAt": "2026-09-23T21:05:47.475Z"
     },
     {
       "title": "2 BHK Independent Floor in Preet Vihar",
@@ -817,6 +817,6 @@
     "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1600&q=80"
   },
   "_meta": {
-    "updatedAt": "2026-09-23T21:03:24.263Z"
+    "updatedAt": "2026-09-23T21:05:47.525Z"
   }
 }
