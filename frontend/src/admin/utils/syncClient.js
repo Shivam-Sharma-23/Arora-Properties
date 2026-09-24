@@ -34,11 +34,11 @@ function replaceBlobUrls(value, map) {
 }
 
 // Resolves any pending blob: image URLs inside `data` to their final
-// committed /uploads/<name> paths, POSTs the result plus the raw image
-// bytes to the save-content function (which commits both to GitHub in one
-// push), and returns the resolved data so the caller can use it as the new
-// state whether or not the network call itself succeeds.
-export async function syncContentToGitHub(data) {
+// backend-served /uploads/<name> URLs, POSTs the result plus the raw image
+// bytes to the backend's save-content endpoint (which stores both in
+// MongoDB), and returns the resolved data so the caller can use it as the
+// new state whether or not the network call itself succeeds.
+export async function syncContentToBackend(data) {
   const blobUrls = collectBlobUrls(data, new Set());
   const urlToFinal = new Map();
   const images = [];
@@ -46,7 +46,7 @@ export async function syncContentToGitHub(data) {
   for (const blobUrl of blobUrls) {
     const pending = getPendingImage(blobUrl);
     if (!pending) continue;
-    urlToFinal.set(blobUrl, '/' + pending.path);
+    urlToFinal.set(blobUrl, API_BASE_URL + '/' + pending.path);
     images.push({
       path: pending.path,
       base64: await readAsBase64(pending.file),

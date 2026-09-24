@@ -1,9 +1,9 @@
 import { createContext, useCallback, useContext, useEffect, useMemo, useRef, useState } from 'react';
 import { seedAll } from '../../data/seedAdminContent';
-import siteContent from '../../data/siteContent.json';
 import { generateId } from '../utils/id';
 import { formatPriceLabel } from '../utils/formatPrice';
-import { syncContentToGitHub } from '../utils/syncClient';
+import { syncContentToBackend } from '../utils/syncClient';
+import { API_BASE_URL } from '../../utils/apiBase';
 import { useToast } from '../../hooks/useToast';
 
 const STORAGE_KEY = 'arora-admin-data';
@@ -40,26 +40,19 @@ export function derivePublicProperty(property) {
   };
 }
 
-// The bundled siteContent.json is committed by admin saves and rebuilt into
-// the app on every deploy, so it's always today's published truth. A local
-// draft only wins over it if it's genuinely newer than the last deploy
-// (i.e. it hasn't made it into a commit/redeploy yet).
+// Local draft (from a save that hasn't synced, or made on this device only)
+// while the real published content is fetched from the backend below.
 function loadInitial() {
-  const bundled = siteContent && siteContent.properties ? siteContent : seedAll();
   try {
     const raw = localStorage.getItem(STORAGE_KEY);
     if (raw) {
       const parsed = JSON.parse(raw);
-      if (parsed && parsed.properties) {
-        const bundledAt = bundled._meta?.updatedAt || '';
-        const localAt = parsed._meta?.updatedAt || '';
-        return localAt > bundledAt ? parsed : bundled;
-      }
+      if (parsed && parsed.properties) return parsed;
     }
   } catch (e) {
-    /* fall through to bundled */
+    /* fall through to seed */
   }
-  return bundled;
+  return seedAll();
 }
 
 const AdminDataContext = createContext(null);
@@ -78,21 +71,36 @@ export function AdminDataProvider({ children }) {
     }
   }, [data]);
 
+  // On mount, fetch the real published content from the backend (MongoDB)
+  // and adopt it unless the current (local draft) state is genuinely newer
+  // — i.e. it hasn't made it into a successful publish yet.
+  useEffect(() => {
+    fetch(API_BASE_URL + '/content')
+      .then((res) => (res.ok ? res.json() : null))
+      .then((server) => {
+        if (!server || !server.properties) return;
+        const serverAt = server._meta?.updatedAt || '';
+        const localAt = dataRef.current._meta?.updatedAt || '';
+        if (serverAt > localAt) setData(server);
+      })
+      .catch(() => { /* offline or backend unreachable — keep local/seed data */ });
+  }, []);
+
   // Applies `next` immediately (optimistic, stamped so it wins over the
-  // bundled siteContent.json until a real deploy catches up — otherwise an
-  // edit that fails to sync would silently disappear on the next reload),
-  // and — when `publish` is true — pushes it to GitHub via the save-content
-  // function so it becomes the real, shared, permanent state after
-  // Netlify's next auto-deploy.
+  // last-fetched server content until a real publish catches up —
+  // otherwise an edit that fails to sync would silently disappear on the
+  // next reload), and — when `publish` is true — pushes it to the backend
+  // via the save-content endpoint so it becomes the real, shared,
+  // permanent state in MongoDB.
   const commit = useCallback((next, { publish }) => {
     const stampedNext = { ...next, _meta: { updatedAt: new Date().toISOString() } };
     setData(stampedNext);
     if (!publish) return;
-    syncContentToGitHub(stampedNext).then((result) => {
+    syncContentToBackend(stampedNext).then((result) => {
       if (result.synced) {
         setData((d) => (d === stampedNext ? result.data : d));
       } else {
-        showToast('⚠ Saved locally, but publishing to GitHub failed: ' + result.error);
+        showToast('⚠ Saved locally, but publishing failed: ' + result.error);
       }
     });
   }, [showToast]);
