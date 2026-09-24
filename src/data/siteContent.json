@@ -1,6 +1,111 @@
 {
   "properties": [
     {
+      "title": "1 BHK Studio Apartment for Rent",
+      "type": "Studio",
+      "buyRent": "rent",
+      "location": "East Delhi",
+      "bedrooms": 1,
+      "agentId": 0,
+      "rating": 4.5,
+      "featured": true,
+      "buildupArea": "350",
+      "carpetArea": "350",
+      "age": "5",
+      "bathrooms": "1",
+      "balconies": "1",
+      "furnishingType": "Unfurnished",
+      "coveredParking": "0",
+      "openParking": "0",
+      "tenantPreference": "Family",
+      "bachelorPreference": null,
+      "petFriendly": "No",
+      "availableFrom": "2026-09-20",
+      "price": "8000",
+      "maintenanceCharges": "Included in Rent",
+      "maintenanceAmount": "",
+      "securityDeposit": "1 Month",
+      "securityDepositCustom": "",
+      "lockInPeriod": "None",
+      "lockInCustom": "",
+      "brokerage": "30 Days",
+      "brokerageCustom": "",
+      "brokerageNegotiable": "No",
+      "parkingCharges": "Included in Rent",
+      "parkingChargesAmount": "",
+      "paintingCharges": "As Per Cost",
+      "paintingChargesAmount": "",
+      "facing": "North-East",
+      "address": {
+        "flat": "",
+        "building": "",
+        "street": "",
+        "locality": "",
+        "city": "",
+        "state": "",
+        "pincode": "110095"
+      },
+      "servantRoom": "No",
+      "description": "Welcome to Radhey Shyam Park, East Delhi, a ready-to-move semi-furnished builder floor. Modular kitchen with a white marble countertop and renovated finishes. The modular kitchen continues with wooden cabinets and piped gas provision. White marble countertop, practical modular fittings. Recently renovated room with a north-east facing and semi-furnished layout. Vaastu-compliant room within the semi-furnished layout. Recently renovated bathroom with fresh finishes. Open balcony area with street outlook and visitor parking access.",
+      "photos": [
+        {
+          "id": "photo-mufkqu01-1",
+          "url": "/uploads/img-mufkqu01-2.jpg",
+          "category": "Living Room",
+          "isCover": false
+        },
+        {
+          "id": "photo-mufkqu02-3",
+          "url": "/uploads/img-mufkqu02-4.jpg",
+          "category": "Kitchen",
+          "isCover": true
+        },
+        {
+          "id": "photo-mufkqu03-5",
+          "url": "/uploads/img-mufkqu03-6.jpg",
+          "category": "Bathroom",
+          "isCover": false
+        },
+        {
+          "id": "photo-mufkqu06-7",
+          "url": "/uploads/img-mufkqu06-8.jpg",
+          "category": "Bedroom",
+          "isCover": false
+        }
+      ],
+      "photoVerification": {},
+      "highlights": {
+        "locationConnectivity": [],
+        "amenitiesWellness": [
+          {
+            "id": "hl-mufkv7r9-a",
+            "label": "Vaastu Complaint"
+          }
+        ],
+        "propertyFeatures": [
+          {
+            "id": "hl-mufkvkni-b",
+            "label": "False Ceiling Lighting"
+          },
+          {
+            "id": "hl-mufkw4lv-c",
+            "label": "Shopping Centre"
+          }
+        ],
+        "securityFeatures": [
+          {
+            "id": "hl-mufku9zn-9",
+            "label": "Security Guard"
+          }
+        ]
+      },
+      "status": "published",
+      "id": 6,
+      "priceLabel": "₹8,000/mo",
+      "createdAt": "2026-09-24T13:40:38.491Z",
+      "updatedAt": "2026-09-24T13:40:38.491Z"
+    },
+    {
       "title": "2 BHK Independent Floor in Preet Vihar",
       "type": "Independent House",
       "buyRent": "rent",
@@ -817,6 +922,6 @@
     "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1600&q=80"
   },
   "_meta": {
-    "updatedAt": "2026-09-23T21:16:29.339Z"
+    "updatedAt": "2026-09-24T13:40:38.563Z"
   }
 }
