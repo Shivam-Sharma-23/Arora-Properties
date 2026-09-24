@@ -1,0 +1,908 @@
+{
+  "properties": [
+    {
+      "title": "preet vihar",
+      "type": "Apartment",
+      "buyRent": "rent",
+      "location": "delhi",
+      "bedrooms": 2,
+      "agentId": 0,
+      "rating": 4.5,
+      "featured": false,
+      "buildupArea": "500",
+      "carpetArea": "",
+      "age": "",
+      "bathrooms": "2",
+      "balconies": "1",
+      "furnishingType": "Semi Furnished",
+      "coveredParking": "0",
+      "openParking": "0",
+      "tenantPreference": "Family",
+      "bachelorPreference": null,
+      "petFriendly": "No",
+      "availableFrom": "2026-09-26",
+      "price": "80000",
+      "maintenanceCharges": "Included in Rent",
+      "maintenanceAmount": "",
+      "securityDeposit": "1 Month",
+      "securityDepositCustom": "",
+      "lockInPeriod": "None",
+      "lockInCustom": "",
+      "brokerage": "None",
+      "brokerageCustom": "",
+      "brokerageNegotiable": "No",
+      "parkingCharges": "Included in Rent",
+      "parkingChargesAmount": "",
+      "paintingCharges": "None",
+      "paintingChargesAmount": "",
+      "facing": "North",
+      "address": {
+        "flat": "",
+        "building": "",
+        "street": "",
+        "locality": "",
+        "city": "",
+        "state": "",
+        "pincode": ""
+      },
+      "servantRoom": "No",
+      "description": "",
+      "photos": [
+        {
+          "id": "photo-mufx8xre-1",
+          "url": "/uploads/img-mufx8xre-2.jpg",
+          "category": "Other",
+          "isCover": false
+        },
+        {
+          "id": "photo-mufx8xre-3",
+          "url": "/uploads/img-mufx8xre-4.jpg",
+          "category": "Other",
+          "isCover": false
+        },
+        {
+          "id": "photo-mufx8xrf-5",
+          "url": "/uploads/img-mufx8xrf-6.jpg",
+          "category": "Other",
+          "isCover": true
+        },
+        {
+          "id": "photo-mufx8xrf-7",
+          "url": "/uploads/img-mufx8xrf-8.jpg",
+          "category": "Other",
+          "isCover": false
+        }
+      ],
+      "photoVerification": {},
+      "highlights": {
+        "locationConnectivity": [],
+        "amenitiesWellness": [],
+        "propertyFeatures": [],
+        "securityFeatures": []
+      },
+      "status": "published",
+      "id": 6,
+      "priceLabel": "₹80,000/mo",
+      "createdAt": "2026-09-24T18:40:31.888Z",
+      "updatedAt": "2026-09-24T19:25:25.426Z"
+    },
+    {
+      "title": "2 BHK Independent Floor in Preet Vihar",
+      "type": "Independent House",
+      "buyRent": "rent",
+      "location": "Preet Vihar, Delhi",
+      "bedrooms": 1,
+      "agentId": 0,
+      "rating": 4.5,
+      "featured": true,
+      "buildupArea": "700",
+      "carpetArea": "",
+      "age": "2",
+      "bathrooms": "2",
+      "balconies": "1",
+      "furnishingType": "Fully Furnished",
+      "coveredParking": "0",
+      "openParking": "0",
+      "tenantPreference": "Family",
+      "bachelorPreference": null,
+      "petFriendly": "Yes",
+      "availableFrom": "2026-06-29",
+      "price": "24998",
+      "maintenanceCharges": "Included in Rent",
+      "maintenanceAmount": "",
+      "securityDeposit": "1 Month",
+      "securityDepositCustom": "",
+      "lockInPeriod": "None",
+      "lockInCustom": "",
+      "brokerage": "30 Days",
+      "brokerageCustom": "",
+      "brokerageNegotiable": "Yes",
+      "parkingCharges": "Included in Rent",
+      "parkingChargesAmount": "",
+      "paintingCharges": "None",
+      "paintingChargesAmount": "",
+      "facing": "North-East",
+      "address": {
+        "flat": "",
+        "building": "",
+        "street": "",
+        "locality": "",
+        "city": "",
+        "state": "",
+        "pincode": "110096"
+      },
+      "servantRoom": "No",
+      "description": "",
+      "photos": [
+        {
+          "id": "photo-mueljody-z",
+          "url": "/uploads/img-mueljody-10.avif",
+          "category": "Kitchen",
+          "isCover": false
+        },
+        {
+          "id": "photo-mueljody-11",
+          "url": "/uploads/img-mueljody-12.avif",
+          "category": "Living Room",
+          "isCover": false
+        },
+        {
+          "id": "photo-mueljodz-13",
+          "url": "/uploads/img-mueljodz-14.avif",
+          "category": "Bedroom",
+          "isCover": false
+        },
+        {
+          "id": "photo-mueljoe0-15",
+          "url": "/uploads/img-mueljoe0-16.avif",
+          "category": "Bedroom",
+          "isCover": true
+        },
+        {
+          "id": "photo-mueljoe0-17",
+          "url": "/uploads/img-mueljoe0-18.avif",
+          "category": "Bedroom",
+          "isCover": false
+        },
+        {
+          "id": "photo-mueljoe1-19",
+          "url": "/uploads/img-mueljoe1-1a.avif",
+          "category": "Bedroom",
+          "isCover": false
+        },
+        {
+          "id": "photo-mueljoe1-1b",
+          "url": "/uploads/img-mueljoe1-1c.avif",
+          "category": "Bathroom",
+          "isCover": false
+        },
+        {
+          "id": "photo-mueljoe1-1d",
+          "url": "/uploads/img-mueljoe1-1e.avif",
+          "category": "Other",
+          "isCover": false
+        },
+        {
+          "id": "photo-mueljoe2-1f",
+          "url": "/uploads/img-mueljoe2-1g.avif",
+          "category": "Bedroom",
+          "isCover": false
+        }
+      ],
+      "photoVerification": {},
+      "highlights": {
+        "locationConnectivity": [],
+        "amenitiesWellness": [],
+        "propertyFeatures": [
+          {
+            "id": "hl-mud0vmzg-2q",
+            "label": "Good Cross ventilation"
+          },
+          {
+            "id": "hl-mud0vobb-2r",
+            "label": "Bachelor Friendly"
+          },
+          {
+            "id": "hl-mud0vpj1-2s",
+            "label": "Natural Light"
+          },
+          {
+            "id": "hl-mud0vuk2-2t",
+            "label": "Fresh Construction"
+          }
+        ],
+        "securityFeatures": []
+      },
+      "status": "published",
+      "id": 5,
+      "priceLabel": "₹24,998/mo",
+      "createdAt": "2026-09-22T18:43:56.531Z",
+      "updatedAt": "2026-09-23T21:11:03.779Z"
+    },
+    {
+      "title": "3 BHK Independent Floor in Preet Vihar",
+      "type": "Independent House",
+      "buyRent": "rent",
+      "location": "Preet Vihar, Delhi",
+      "bedrooms": 1,
+      "agentId": 0,
+      "rating": 4.5,
+      "featured": true,
+      "buildupArea": "1800",
+      "carpetArea": "",
+      "age": "3",
+      "bathrooms": "3",
+      "balconies": "2",
+      "furnishingType": "Semi Furnished",
+      "coveredParking": "1",
+      "openParking": "1",
+      "tenantPreference": "Family",
+      "bachelorPreference": null,
+      "petFriendly": "Yes",
+      "availableFrom": "2026-06-29",
+      "price": "55000",
+      "maintenanceCharges": "Included in Rent",
+      "maintenanceAmount": "",
+      "securityDeposit": "1 Month",
+      "securityDepositCustom": "",
+      "lockInPeriod": "None",
+      "lockInCustom": "",
+      "brokerage": "30 Days",
+      "brokerageCustom": "",
+      "brokerageNegotiable": "Yes",
+      "parkingCharges": "Included in Rent",
+      "parkingChargesAmount": "",
+      "paintingCharges": "None",
+      "paintingChargesAmount": "",
+      "facing": "North-East",
+      "address": {
+        "flat": "",
+        "building": "",
+        "street": "",
+        "locality": "",
+        "city": "",
+        "state": "",
+        "pincode": "110096"
+      },
+      "servantRoom": "No",
+      "description": "",
+      "photos": [
+        {
+          "id": "photo-muelibml-h",
+          "url": "/uploads/img-muelibml-i.avif",
+          "category": "Kitchen",
+          "isCover": false
+        },
+        {
+          "id": "photo-muelibml-j",
+          "url": "/uploads/img-muelibml-k.avif",
+          "category": "Kitchen",
+          "isCover": false
+        },
+        {
+          "id": "photo-muelibmm-l",
+          "url": "/uploads/img-muelibmm-m.avif",
+          "category": "Kitchen",
+          "isCover": false
+        },
+        {
+          "id": "photo-muelibmm-n",
+          "url": "/uploads/img-muelibmm-o.avif",
+          "category": "Bedroom",
+          "isCover": false
+        },
+        {
+          "id": "photo-muelibmm-p",
+          "url": "/uploads/img-muelibmm-q.avif",
+          "category": "Bathroom",
+          "isCover": false
+        },
+        {
+          "id": "photo-muelibmn-r",
+          "url": "/uploads/img-muelibmn-s.avif",
+          "category": "Toilet",
+          "isCover": false
+        },
+        {
+          "id": "photo-muelibmn-t",
+          "url": "/uploads/img-muelibmn-u.avif",
+          "category": "Bathroom",
+          "isCover": true
+        },
+        {
+          "id": "photo-muelibmn-v",
+          "url": "/uploads/img-muelibmn-w.avif",
+          "category": "Bedroom",
+          "isCover": false
+        },
+        {
+          "id": "photo-muelibmo-x",
+          "url": "/uploads/img-muelibmo-y.avif",
+          "category": "Other",
+          "isCover": false
+        }
+      ],
+      "photoVerification": {},
+      "highlights": {
+        "locationConnectivity": [],
+        "amenitiesWellness": [],
+        "propertyFeatures": [
+          {
+            "id": "hl-mud0qa2e-25",
+            "label": "Natural Light"
+          },
+          {
+            "id": "hl-mud0qkit-26",
+            "label": "Open Space Around"
+          },
+          {
+            "id": "hl-mud0qlzj-27",
+            "label": "Fresh Construction"
+          }
+        ],
+        "securityFeatures": []
+      },
+      "status": "published",
+      "id": 4,
+      "priceLabel": "₹55,000/mo",
+      "createdAt": "2026-09-22T18:39:47.373Z",
+      "updatedAt": "2026-09-23T21:11:20.216Z"
+    },
+    {
+      "title": "1 BHK Independent Floor in Jhilmil Colony",
+      "type": "Independent House",
+      "buyRent": "rent",
+      "location": "Jhilmil Colony, Delhi",
+      "bedrooms": 1,
+      "agentId": 0,
+      "rating": 4.5,
+      "featured": true,
+      "buildupArea": "500",
+      "carpetArea": "",
+      "age": "5",
+      "bathrooms": "1",
+      "balconies": "1",
+      "furnishingType": "Fully Furnished",
+      "coveredParking": "0",
+      "openParking": "1",
+      "tenantPreference": "Family",
+      "bachelorPreference": null,
+      "petFriendly": "Yes",
+      "availableFrom": "2026-06-29",
+      "price": "16000",
+      "maintenanceCharges": "Included in Rent",
+      "maintenanceAmount": "",
+      "securityDeposit": "1 Month",
+      "securityDepositCustom": "",
+      "lockInPeriod": "None",
+      "lockInCustom": "",
+      "brokerage": "30 Days",
+      "brokerageCustom": "",
+      "brokerageNegotiable": "Yes",
+      "parkingCharges": "Included in Rent",
+      "parkingChargesAmount": "",
+      "paintingCharges": "None",
+      "paintingChargesAmount": "",
+      "facing": "North-East",
+      "address": {
+        "flat": "",
+        "building": "",
+        "street": "",
+        "locality": "",
+        "city": "",
+        "state": "",
+        "pincode": "110095"
+      },
+      "servantRoom": "No",
+      "description": "",
+      "photos": [
+        {
+          "id": "photo-muelq9j5-1",
+          "url": "/uploads/img-muelq9j5-2.avif",
+          "category": "Kitchen",
+          "isCover": false
+        },
+        {
+          "id": "photo-muelq9j7-3",
+          "url": "/uploads/img-muelq9j7-4.avif",
+          "category": "Bedroom",
+          "isCover": false
+        },
+        {
+          "id": "photo-muelq9j8-5",
+          "url": "/uploads/img-muelq9j8-6.avif",
+          "category": "Bedroom",
+          "isCover": false
+        },
+        {
+          "id": "photo-muelq9j9-7",
+          "url": "/uploads/img-muelq9j9-8.avif",
+          "category": "Bedroom",
+          "isCover": false
+        },
+        {
+          "id": "photo-muelq9j9-9",
+          "url": "/uploads/img-muelq9j9-a.avif",
+          "category": "Bedroom",
+          "isCover": false
+        },
+        {
+          "id": "photo-muelq9j9-b",
+          "url": "/uploads/img-muelq9j9-c.avif",
+          "category": "Living Room",
+          "isCover": true
+        },
+        {
+          "id": "photo-muelq9ja-d",
+          "url": "/uploads/img-muelq9ja-e.avif",
+          "category": "Toilet",
+          "isCover": false
+        },
+        {
+          "id": "photo-muelq9ja-f",
+          "url": "/uploads/img-muelq9ja-g.avif",
+          "category": "Living Room",
+          "isCover": false
+        }
+      ],
+      "photoVerification": {},
+      "highlights": {
+        "locationConnectivity": [],
+        "amenitiesWellness": [],
+        "propertyFeatures": [
+          {
+            "id": "hl-mud0lve0-1j",
+            "label": "Natural Light"
+          },
+          {
+            "id": "hl-mud0m0mv-1k",
+            "label": "Good Cross ventilation"
+          },
+          {
+            "id": "hl-mud0m458-1l",
+            "label": "Bachelor Friendly"
+          },
+          {
+            "id": "hl-mud0m719-1m",
+            "label": "Fresh Construction"
+          }
+        ],
+        "securityFeatures": []
+      },
+      "status": "published",
+      "id": 3,
+      "priceLabel": "₹16,000/mo",
+      "createdAt": "2026-09-22T18:36:24.284Z",
+      "updatedAt": "2026-09-23T21:16:29.338Z"
+    },
+    {
+      "title": "1 BHK Independent Floor in Preet Vihar",
+      "type": "Independent House",
+      "buyRent": "rent",
+      "location": "Preet Vihar, Delhi",
+      "bedrooms": 1,
+      "agentId": 0,
+      "rating": 4.5,
+      "featured": true,
+      "buildupArea": "500",
+      "carpetArea": "",
+      "age": "5",
+      "bathrooms": "1",
+      "balconies": "1",
+      "furnishingType": "Semi Furnished",
+      "coveredParking": "0",
+      "openParking": "0",
+      "tenantPreference": "Family",
+      "bachelorPreference": null,
+      "petFriendly": "Yes",
+      "availableFrom": "2026-06-29",
+      "price": "20000",
+      "maintenanceCharges": "Included in Rent",
+      "maintenanceAmount": "",
+      "securityDeposit": "1 Month",
+      "securityDepositCustom": "",
+      "lockInPeriod": "None",
+      "lockInCustom": "",
+      "brokerage": "30 Days",
+      "brokerageCustom": "",
+      "brokerageNegotiable": "Yes",
+      "parkingCharges": "Included in Rent",
+      "parkingChargesAmount": "",
+      "paintingCharges": "None",
+      "paintingChargesAmount": "",
+      "facing": "North-East",
+      "address": {
+        "flat": "",
+        "building": "",
+        "street": "",
+        "locality": "",
+        "city": "",
+        "state": "",
+        "pincode": "110096"
+      },
+      "servantRoom": "No",
+      "description": "",
+      "photos": [
+        {
+          "id": "photo-muelcwd4-1",
+          "url": "/uploads/img-muelcwd4-2.avif",
+          "category": "Living Room",
+          "isCover": false
+        },
+        {
+          "id": "photo-muelcwd5-3",
+          "url": "/uploads/img-muelcwd5-4.avif",
+          "category": "Bedroom",
+          "isCover": false
+        },
+        {
+          "id": "photo-muelcwd5-5",
+          "url": "/uploads/img-muelcwd5-6.avif",
+          "category": "Other",
+          "isCover": false
+        },
+        {
+          "id": "photo-muelcwd6-7",
+          "url": "/uploads/img-muelcwd6-8.avif",
+          "category": "Toilet",
+          "isCover": false
+        },
+        {
+          "id": "photo-muelcwd6-9",
+          "url": "/uploads/img-muelcwd6-a.avif",
+          "category": "Other",
+          "isCover": true
+        },
+        {
+          "id": "photo-muelcwd6-b",
+          "url": "/uploads/img-muelcwd6-c.avif",
+          "category": "Living Room",
+          "isCover": false
+        },
+        {
+          "id": "photo-muelcwd6-d",
+          "url": "/uploads/img-muelcwd6-e.avif",
+          "category": "Kitchen",
+          "isCover": false
+        }
+      ],
+      "photoVerification": {},
+      "highlights": {
+        "locationConnectivity": [],
+        "amenitiesWellness": [],
+        "propertyFeatures": [
+          {
+            "id": "hl-mud0gsd4-z",
+            "label": "Natural Light"
+          },
+          {
+            "id": "hl-mud0h3tr-10",
+            "label": "Good Cross ventilation"
+          },
+          {
+            "id": "hl-mud0hafk-11",
+            "label": "Bachelor Friendly"
+          },
+          {
+            "id": "hl-mud0hgd0-12",
+            "label": "Fresh Construction"
+          }
+        ],
+        "securityFeatures": []
+      },
+      "status": "published",
+      "id": 2,
+      "priceLabel": "₹20,000/mo",
+      "createdAt": "2026-09-22T18:33:03.167Z",
+      "updatedAt": "2026-09-23T21:06:23.848Z"
+    },
+    {
+      "title": "2 BHK Independent Floor in Preet Vihar",
+      "type": "Independent House",
+      "buyRent": "rent",
+      "location": " Preet Vihar,Delhi",
+      "bedrooms": 1,
+      "agentId": 0,
+      "rating": 4.5,
+      "featured": true,
+      "buildupArea": "600",
+      "carpetArea": "",
+      "age": "4",
+      "bathrooms": "1",
+      "balconies": "1",
+      "furnishingType": "Semi Furnished",
+      "coveredParking": "0",
+      "openParking": "0",
+      "tenantPreference": "Family",
+      "bachelorPreference": null,
+      "petFriendly": "Yes",
+      "availableFrom": "2026-06-29",
+      "price": "25000",
+      "maintenanceCharges": "Included in Rent",
+      "maintenanceAmount": "",
+      "securityDeposit": "1 Month",
+      "securityDepositCustom": "",
+      "lockInPeriod": "None",
+      "lockInCustom": "",
+      "brokerage": "30 Days",
+      "brokerageCustom": "",
+      "brokerageNegotiable": "Yes",
+      "parkingCharges": "Included in Rent",
+      "parkingChargesAmount": "",
+      "paintingCharges": "None",
+      "paintingChargesAmount": "",
+      "facing": "North-East",
+      "address": {
+        "flat": "",
+        "building": "",
+        "street": "",
+        "locality": "",
+        "city": "",
+        "state": "",
+        "pincode": "110096"
+      },
+      "servantRoom": "No",
+      "description": "",
+      "photos": [
+        {
+          "id": "photo-muel8hqa-1",
+          "url": "/uploads/img-muel8hqa-2.avif",
+          "category": "Kitchen",
+          "isCover": false
+        },
+        {
+          "id": "photo-muel8hqb-3",
+          "url": "/uploads/img-muel8hqb-4.avif",
+          "category": "Kitchen",
+          "isCover": false
+        },
+        {
+          "id": "photo-muel8hqb-5",
+          "url": "/uploads/img-muel8hqb-6.avif",
+          "category": "Living Room",
+          "isCover": false
+        },
+        {
+          "id": "photo-muel8hqc-7",
+          "url": "/uploads/img-muel8hqc-8.avif",
+          "category": "Bedroom",
+          "isCover": false
+        },
+        {
+          "id": "photo-muel8hqc-9",
+          "url": "/uploads/img-muel8hqc-a.avif",
+          "category": "Bedroom",
+          "isCover": false
+        },
+        {
+          "id": "photo-muel8hqe-b",
+          "url": "/uploads/img-muel8hqe-c.avif",
+          "category": "Bedroom",
+          "isCover": false
+        },
+        {
+          "id": "photo-muel8hqf-d",
+          "url": "/uploads/img-muel8hqf-e.avif",
+          "category": "Toilet",
+          "isCover": false
+        },
+        {
+          "id": "photo-muel8hqg-f",
+          "url": "/uploads/img-muel8hqg-g.avif",
+          "category": "Other",
+          "isCover": true
+        }
+      ],
+      "photoVerification": {},
+      "highlights": {
+        "locationConnectivity": [],
+        "amenitiesWellness": [],
+        "propertyFeatures": [
+          {
+            "id": "hl-mud0c10t-h",
+            "label": "Natural Light"
+          },
+          {
+            "id": "hl-mud0c77q-i",
+            "label": "Good Cross ventilation"
+          },
+          {
+            "id": "hl-mud0cdjr-j",
+            "label": "Bachelor Friendly"
+          },
+          {
+            "id": "hl-mud0crgf-k",
+            "label": "Fresh Construction"
+          }
+        ],
+        "securityFeatures": []
+      },
+      "status": "published",
+      "id": 1,
+      "priceLabel": "₹25,000/mo",
+      "createdAt": "2026-09-22T18:29:01.664Z",
+      "updatedAt": "2026-09-23T21:03:24.262Z"
+    }
+  ],
+  "locations": [
+    {
+      "id": "loc-mucyz8jn-1x",
+      "name": "Delhi NCR",
+      "count": 342,
+      "image": "https://images.unsplash.com/photo-1477959858617-67f85cf4f1df?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "loc-mucyz8jn-1y",
+      "name": "Mumbai",
+      "count": 215,
+      "image": "https://images.unsplash.com/photo-1519501025264-65ba15a82390?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "loc-mucyz8jn-1z",
+      "name": "Bangalore",
+      "count": 198,
+      "image": "https://images.unsplash.com/photo-1519741497674-611481863552?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "loc-mucyz8jn-20",
+      "name": "Hyderabad",
+      "count": 124,
+      "image": "https://images.unsplash.com/photo-1600566753086-00f18fb6b3ea?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "loc-mucyz8jn-21",
+      "name": "Pune",
+      "count": 156,
+      "image": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c?auto=format&fit=crop&w=800&q=80"
+    },
+    {
+      "id": "loc-mucyz8jn-22",
+      "name": "Goa",
+      "count": 87,
+      "image": "https://images.unsplash.com/photo-1512343879784-a960bf40e7f9?auto=format&fit=crop&w=800&q=80"
+    }
+  ],
+  "experts": [
+    {
+      "id": 1,
+      "name": "Aarav Mehta",
+      "role": "Senior Property Advisor",
+      "location": "Gurgaon",
+      "listings": 38,
+      "rating": 4.9,
+      "photo": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?auto=format&fit=crop&w=400&q=80",
+      "managedProperties": 38
+    },
+    {
+      "id": 2,
+      "name": "Priya Nair",
+      "role": "Property Consultant",
+      "location": "Mumbai",
+      "listings": 45,
+      "rating": 4.8,
+      "photo": "https://images.unsplash.com/photo-1494790108377-be9c29b29330?auto=format&fit=crop&w=400&q=80",
+      "managedProperties": 45
+    },
+    {
+      "id": 3,
+      "name": "Rohan Kapoor",
+      "role": "Senior Property Advisor",
+      "location": "Bangalore",
+      "listings": 52,
+      "rating": 4.9,
+      "photo": "https://images.unsplash.com/photo-1580489944761-15a19d654956?auto=format&fit=crop&w=400&q=80",
+      "managedProperties": 52
+    },
+    {
+      "id": 4,
+      "name": "Simran Kaur",
+      "role": "Property Consultant",
+      "location": "Pune",
+      "listings": 29,
+      "rating": 4.7,
+      "photo": "https://images.unsplash.com/photo-1544005313-94ddf0286df2?auto=format&fit=crop&w=400&q=80",
+      "managedProperties": 29
+    }
+  ],
+  "faqs": [
+    {
+      "id": "faq-mucyz8jn-23",
+      "order": 0,
+      "question": "How do I schedule a property visit?",
+      "answer": "Open any listing and select \"Schedule a Visit\". Choose a preferred date and time and our team will confirm with you shortly."
+    },
+    {
+      "id": "faq-mucyz8jn-24",
+      "order": 1,
+      "question": "Are the listed prices negotiable?",
+      "answer": "Most sellers and landlords are open to discussion. Contact the assigned agent directly to discuss terms."
+    },
+    {
+      "id": "faq-mucyz8jn-25",
+      "order": 2,
+      "question": "How are properties verified?",
+      "answer": "Every listing is checked against ownership documents and physically inspected by our team before it goes live."
+    },
+    {
+      "id": "faq-mucyz8jn-26",
+      "order": 3,
+      "question": "Can I save properties without an account?",
+      "answer": "Yes. Favorites are stored on your device, so they stay available on your next visit from the same browser."
+    },
+    {
+      "id": "faq-mucyz8jn-27",
+      "order": 4,
+      "question": "Do you charge buyers or tenants a fee?",
+      "answer": "Browsing and inquiries are free. Any applicable brokerage is disclosed upfront before you proceed with a property."
+    }
+  ],
+  "blogs": [
+    {
+      "id": "blog-mucyz8jn-28",
+      "title": "What is driving demand in Gurgaon this year",
+      "author": "Arora Editorial Team",
+      "category": "Market",
+      "coverImage": "",
+      "excerpt": "A look at the localities seeing the sharpest rise in enquiries and what is behind it.",
+      "content": "A look at the localities seeing the sharpest rise in enquiries and what is behind it.",
+      "publishDate": "Aug 2026",
+      "status": "published",
+      "order": 0
+    },
+    {
+      "id": "blog-mucyz8jn-29",
+      "title": "Renting vs. buying in your first city move",
+      "author": "Arora Editorial Team",
+      "category": "Guide",
+      "coverImage": "",
+      "excerpt": "The real costs and trade-offs behind each option, beyond the monthly number.",
+      "content": "The real costs and trade-offs behind each option, beyond the monthly number.",
+      "publishDate": "Jul 2026",
+      "status": "published",
+      "order": 1
+    },
+    {
+      "id": "blog-mucyz8jn-2a",
+      "title": "Small layout choices that make a home feel larger",
+      "author": "Arora Editorial Team",
+      "category": "Design",
+      "coverImage": "",
+      "excerpt": "Notes from our design partners on light, storage and flow.",
+      "content": "Notes from our design partners on light, storage and flow.",
+      "publishDate": "Jun 2026",
+      "status": "published",
+      "order": 2
+    }
+  ],
+  "reviews": [
+    {
+      "id": "rev-mucyz8jn-2b",
+      "propertyId": 1,
+      "propertyTitle": "Modern Glass Villa",
+      "reviewerName": "Nikhil Bansal",
+      "rating": 5,
+      "reviewText": "The villa exceeded expectations — exactly as photographed, and the agent was very responsive throughout.",
+      "date": "2026-02-02",
+      "status": "approved"
+    },
+    {
+      "id": "rev-mucyz8jn-2c",
+      "propertyId": 3,
+      "propertyTitle": "Palm Heights",
+      "reviewerName": "Sana Qureshi",
+      "rating": 4,
+      "reviewText": "Great location and view. Would have liked a slightly faster response on maintenance queries.",
+      "date": "2026-03-11",
+      "status": "pending"
+    }
+  ],
+  "hero": {
+    "heading": "Find a home that fits your life.",
+    "subtitle": "Explore carefully selected properties in the world's most desirable locations.",
+    "searchPlaceholder": "City, locality",
+    "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1600&q=80"
+  },
+  "_meta": {
+    "updatedAt": "2026-09-24T19:25:25.471Z"
+  }
+}
