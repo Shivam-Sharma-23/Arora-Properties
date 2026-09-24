@@ -49,26 +49,26 @@
       "description": "Welcome to Radhey Shyam Park, East Delhi, a ready-to-move semi-furnished builder floor. Modular kitchen with a white marble countertop and renovated finishes. The modular kitchen continues with wooden cabinets and piped gas provision. White marble countertop, practical modular fittings. Recently renovated room with a north-east facing and semi-furnished layout. Vaastu-compliant room within the semi-furnished layout. Recently renovated bathroom with fresh finishes. Open balcony area with street outlook and visitor parking access.",
       "photos": [
         {
-          "id": "photo-mufkqu01-1",
-          "url": "/uploads/img-mufkqu01-2.jpg",
+          "id": "photo-mufkzy48-1",
+          "url": "/uploads/img-mufkzy48-2.jpg",
           "category": "Living Room",
           "isCover": false
         },
         {
-          "id": "photo-mufkqu02-3",
-          "url": "/uploads/img-mufkqu02-4.jpg",
+          "id": "photo-mufkzy49-3",
+          "url": "/uploads/img-mufkzy49-4.jpg",
           "category": "Kitchen",
           "isCover": true
         },
         {
-          "id": "photo-mufkqu03-5",
-          "url": "/uploads/img-mufkqu03-6.jpg",
+          "id": "photo-mufkzy49-5",
+          "url": "/uploads/img-mufkzy49-6.jpg",
           "category": "Bathroom",
           "isCover": false
         },
         {
-          "id": "photo-mufkqu06-7",
-          "url": "/uploads/img-mufkqu06-8.jpg",
+          "id": "photo-mufkzy49-7",
+          "url": "/uploads/img-mufkzy49-8.jpg",
           "category": "Bedroom",
           "isCover": false
         }
@@ -103,7 +103,7 @@
       "id": 6,
       "priceLabel": "₹8,000/mo",
       "createdAt": "2026-09-24T13:40:38.491Z",
-      "updatedAt": "2026-09-24T13:40:38.491Z"
+      "updatedAt": "2026-09-24T13:42:52.131Z"
     },
     {
       "title": "2 BHK Independent Floor in Preet Vihar",
@@ -922,6 +922,6 @@
     "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1600&q=80"
   },
   "_meta": {
-    "updatedAt": "2026-09-24T13:40:38.563Z"
+    "updatedAt": "2026-09-24T13:42:52.179Z"
   }
 }
