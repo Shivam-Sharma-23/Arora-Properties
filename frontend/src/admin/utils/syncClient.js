@@ -1,6 +1,5 @@
 import { getPendingImage, clearPendingImage } from './pendingImages';
 import { getAdminToken } from '../AdminGuard';
-import { API_BASE_URL } from '../../utils/apiBase';
 
 function readAsBase64(file) {
   return new Promise((resolve, reject) => {
@@ -63,7 +62,7 @@ export async function syncContentToGitHub(data) {
   }
 
   try {
-    const res = await fetch(API_BASE_URL + '/save-content', {
+    const res = await fetch('/.netlify/functions/save-content', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json', Authorization: 'Bearer ' + token },
       body: JSON.stringify({ content: stamped, images }),
