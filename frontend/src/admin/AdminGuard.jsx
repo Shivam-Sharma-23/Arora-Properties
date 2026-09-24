@@ -1,9 +1,10 @@
 import { Navigate, useLocation } from 'react-router-dom';
+import { API_BASE_URL } from '../utils/apiBase';
 
-// Local dev fallback password — only used when the admin-login function
-// can't be reached at all (e.g. running `vite dev` without `netlify dev`).
-// It grants access to the admin UI but no sync token, so publishing to
-// GitHub will fail until a real login succeeds against the function.
+// Local dev fallback password — only used when the backend (VITE_API_URL)
+// can't be reached at all, e.g. running the frontend without the backend
+// server running. It grants access to the admin UI but no sync token, so
+// publishing to GitHub will fail until a real login succeeds against it.
 export const DEV_ADMIN_PASSWORD = 'arora-admin';
 const SESSION_KEY = 'arora-admin-authed';
 const TOKEN_KEY = 'arora-admin-token';
@@ -30,14 +31,14 @@ export function setAdminToken(token) {
   else sessionStorage.removeItem(TOKEN_KEY);
 }
 
-// Logs in against the server-verified admin-login Netlify Function, which
+// Logs in against the server-verified /admin-login backend route, which
 // checks ADMIN_PASSWORD and returns a short-lived signed token used to
 // authorize save-content calls. Falls back to the local dev password only
-// when the function is unreachable/unconfigured.
+// when the backend is unreachable/unconfigured.
 export async function loginAdmin(password) {
   let response = null;
   try {
-    response = await fetch('/.netlify/functions/admin-login', {
+    response = await fetch(API_BASE_URL + '/admin-login', {
       method: 'POST',
       headers: { 'Content-Type': 'application/json' },
       body: JSON.stringify({ password }),

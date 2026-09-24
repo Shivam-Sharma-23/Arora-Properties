@@ -12,6 +12,11 @@ dist
 dist-ssr
 *.local
 
+# Env files (never commit real secrets/URLs; .env.example documents the shape)
+.env
+.env.*
+!.env.example
+
 # Editor directories and files
 .vscode/*
 !.vscode/extensions.json
@@ -25,3 +30,7 @@ dist-ssr
 
 # Local Netlify folder
 .netlify
+
+# Root-level netlify-cli install (local dev convenience only, not the app)
+/package.json
+/package-lock.json
