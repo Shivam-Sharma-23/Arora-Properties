@@ -49,26 +49,26 @@
       "description": "",
       "photos": [
         {
-          "id": "photo-mufvmso4-1",
-          "url": "/uploads/img-mufvmso4-2.jpg",
+          "id": "photo-mufvpend-9",
+          "url": "/uploads/img-mufvpend-a.jpg",
           "category": "Other",
           "isCover": false
         },
         {
-          "id": "photo-mufvmso4-3",
-          "url": "/uploads/img-mufvmso4-4.jpg",
+          "id": "photo-mufvpend-b",
+          "url": "/uploads/img-mufvpend-c.jpg",
           "category": "Other",
           "isCover": false
         },
         {
-          "id": "photo-mufvmso5-5",
-          "url": "/uploads/img-mufvmso5-6.jpg",
+          "id": "photo-mufvpend-d",
+          "url": "/uploads/img-mufvpend-e.jpg",
           "category": "Other",
           "isCover": true
         },
         {
-          "id": "photo-mufvmso5-7",
-          "url": "/uploads/img-mufvmso5-8.jpg",
+          "id": "photo-mufvpene-f",
+          "url": "/uploads/img-mufvpene-g.jpg",
           "category": "Other",
           "isCover": false
         }
@@ -84,7 +84,7 @@
       "id": 6,
       "priceLabel": "₹80,000/mo",
       "createdAt": "2026-09-24T18:40:31.888Z",
-      "updatedAt": "2026-09-24T18:40:31.888Z"
+      "updatedAt": "2026-09-24T18:42:14.311Z"
     },
     {
       "title": "2 BHK Independent Floor in Preet Vihar",
@@ -903,6 +903,6 @@
     "image": "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?auto=format&fit=crop&w=1600&q=80"
   },
   "_meta": {
-    "updatedAt": "2026-09-24T18:40:31.928Z"
+    "updatedAt": "2026-09-24T18:42:14.344Z"
   }
 }
