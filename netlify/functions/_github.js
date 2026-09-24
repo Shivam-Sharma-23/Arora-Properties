@@ -1,3 +1,5 @@
+// LEGACY — ported 1:1 into lib/github.js in the separate backend repo
+// (arora-backend, deployed on Render). See CLAUDE.md. Do not extend this.
 const API = 'https://api.github.com';
 
 function env(name) {

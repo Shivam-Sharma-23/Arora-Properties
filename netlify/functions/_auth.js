@@ -1,3 +1,5 @@
+// LEGACY — ported 1:1 into lib/auth.js in the separate backend repo
+// (arora-backend, deployed on Render). See CLAUDE.md. Do not extend this.
 import crypto from 'node:crypto';
 
 function sign(encoded, secret) {

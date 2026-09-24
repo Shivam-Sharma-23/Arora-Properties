@@ -1,3 +1,5 @@
+// LEGACY — superseded by routes/adminLogin.js in the separate backend repo
+// (arora-backend, deployed on Render). See CLAUDE.md. Do not extend this.
 import { signToken } from './_auth.js';
 
 const JSON_HEADERS = { 'Content-Type': 'application/json' };

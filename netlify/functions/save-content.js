@@ -1,3 +1,5 @@
+// LEGACY — superseded by routes/saveContent.js in the separate backend repo
+// (arora-backend, deployed on Render). See CLAUDE.md. Do not extend this.
 import { verifyToken } from './_auth.js';
 import { commitFiles } from './_github.js';
 
