@@ -84,7 +84,7 @@ export default function ExpertsCmsPage() {
       {experts.length === 0 ? (
         <div className="admin-card"><EmptyState icon={IconUsers} title="No experts yet" subtitle="Add an expert to feature them on the homepage." actionLabel="+ Add Expert" onAction={() => setModalState({ ...EMPTY })} /></div>
       ) : (
-        <div className="grid-4" style={{ gap: 18 }}>
+        <div className="grid-4" data-grid-4="true" style={{ gap: 18 }}>
           {experts.map((e, i) => (
             <div className="admin-card" key={e.id} style={{ textAlign: 'center' }}>
               <div className="admin-image-thumb" style={{ width: 72, height: 72, borderRadius: '50%', margin: '0 auto 12px' }}>

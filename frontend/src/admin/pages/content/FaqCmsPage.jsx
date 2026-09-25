@@ -82,7 +82,7 @@ export default function FaqCmsPage() {
                 </div>
               </>
             ) : (
-              <div style={{ display: 'flex', justifyContent: 'space-between', gap: 16 }}>
+              <div data-faq-row="true" style={{ display: 'flex', justifyContent: 'space-between', gap: 16 }}>
                 <div style={{ flex: 1 }}>
                   <h3 style={{ fontFamily: "'Manrope', sans-serif", fontSize: 15, fontWeight: 700, color: '#1C2430', margin: '0 0 6px' }}>{faq.question}</h3>
                   <p style={{ fontSize: 13.5, color: '#6B7280', margin: 0 }}>{faq.answer}</p>
