@@ -10,6 +10,7 @@
 
 @media (max-width: 900px) {
   [data-search-grid] { grid-template-columns: 1fr !important; }
+  [data-search-grid] .search-submit { padding: 16px 26px; justify-content: center; }
   [data-search-grid-5] { grid-template-columns: 1fr !important; }
   [data-grid-4] { grid-template-columns: repeat(2, 1fr) !important; }
   [data-properties-layout] { flex-direction: column !important; }
