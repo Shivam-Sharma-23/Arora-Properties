@@ -42,7 +42,10 @@ export default function PropertyDetailPage() {
 
   const property = derivePublicProperty(rawProperty);
   const agent = experts.find((a) => a.id === property.agentId) || experts[0];
-  const propertyReviews = reviews.filter((r) => r.status === 'approved' && String(r.propertyId) === String(property.id));
+  const propertyReviews = reviews
+    .filter((r) => r.status === 'approved' && String(r.propertyId) === String(property.id))
+    .sort((a, b) => b.rating - a.rating || new Date(b.date) - new Date(a.date))
+    .slice(0, 4);
 
   const favorite = isFavorite(property.id);
   const stars = [0, 1, 2, 3, 4].filter((i) => i < Math.round(property.rating));
@@ -113,7 +116,7 @@ export default function PropertyDetailPage() {
 
           <PropertyStats property={property} />
           <AmenitiesList amenities={property.amenities} />
-          <PropertyReviews reviews={propertyReviews} />
+          <PropertyReviews reviews={propertyReviews} property={property} />
         </div>
 
         <AgentInquiryCard agent={agent} onSchedule={() => setScheduleOpen(true)} onContact={() => setContactOpen(true)} />

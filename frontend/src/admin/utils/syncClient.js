@@ -78,3 +78,25 @@ export async function syncContentToBackend(data) {
     return { data: stamped, synced: false, error: 'Could not reach the publish service.' };
   }
 }
+
+// Submits a visitor-written review straight to the backend's unauthenticated
+// /submit-review endpoint. Visitors have no admin token, so this bypasses
+// syncContentToBackend/save-content (which requires one) entirely — the
+// review is appended server-side and shows up as "pending" for the admin
+// to moderate on any device, not just the one it was written on.
+export async function submitReviewToBackend(review) {
+  try {
+    const res = await fetch(API_BASE_URL + '/submit-review', {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify(review),
+    });
+    if (!res.ok) {
+      const body = await res.json().catch(() => ({}));
+      return { ok: false, error: body.error || ('Failed (' + res.status + ').') };
+    }
+    return { ok: true };
+  } catch (e) {
+    return { ok: false, error: 'Could not reach the review service.' };
+  }
+}

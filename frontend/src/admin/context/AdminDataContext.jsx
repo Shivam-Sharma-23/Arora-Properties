@@ -2,7 +2,7 @@ import { createContext, useCallback, useContext, useEffect, useMemo, useRef, use
 import { seedAll } from '../../data/seedAdminContent';
 import { generateId } from '../utils/id';
 import { formatPriceLabel } from '../utils/formatPrice';
-import { syncContentToBackend } from '../utils/syncClient';
+import { syncContentToBackend, submitReviewToBackend } from '../utils/syncClient';
 import { API_BASE_URL } from '../../utils/apiBase';
 import { useToast } from '../../hooks/useToast';
 
@@ -224,6 +224,18 @@ export function AdminDataProvider({ children }) {
   }, [commit]);
 
   // ---- Reviews ----
+  // A site visitor has no admin token, so this skips the normal commit()/
+  // save-content flow entirely and posts straight to the backend's
+  // unauthenticated /submit-review endpoint — the local update below is
+  // just optimistic UI for this browser tab.
+  const addReview = useCallback((review) => {
+    const record = { id: generateId('rev'), status: 'pending', ...review };
+    setData((d) => ({ ...d, reviews: [record, ...d.reviews] }));
+    submitReviewToBackend(review).then((result) => {
+      if (!result.ok) showToast('Your review was saved on this device, but publishing it failed: ' + result.error);
+    });
+    return record;
+  }, [showToast]);
   const updateReview = useCallback((id, patch) => {
     const reviews = dataRef.current.reviews.map((r) => (r.id === id ? { ...r, ...patch } : r));
     commit({ ...dataRef.current, reviews }, { publish: true });
@@ -249,7 +261,7 @@ export function AdminDataProvider({ children }) {
     addExpert, updateExpert, deleteExpert, reorderExpert,
     addFaq, updateFaq, deleteFaq, reorderFaq,
     addBlog, updateBlog, deleteBlog,
-    updateReview, deleteReview,
+    addReview, updateReview, deleteReview,
     updateHero,
     resetAllData,
   }), [data, addProperty, updateProperty, deleteProperty, getProperty,
@@ -257,7 +269,7 @@ export function AdminDataProvider({ children }) {
     addExpert, updateExpert, deleteExpert, reorderExpert,
     addFaq, updateFaq, deleteFaq, reorderFaq,
     addBlog, updateBlog, deleteBlog,
-    updateReview, deleteReview,
+    addReview, updateReview, deleteReview,
     updateHero, resetAllData]);
 
   return <AdminDataContext.Provider value={value}>{children}</AdminDataContext.Provider>;

@@ -10,3 +10,12 @@ export function validateScheduleForm(form) {
   if (!form.time) errors.time = 'Pick a time';
   return errors;
 }
+
+export function validateReviewForm(form) {
+  const errors = {};
+  if (!form.name.trim()) errors.name = 'Name is required';
+  if (!form.rating) errors.rating = 'Select a rating';
+  if (!form.text.trim()) errors.text = 'Write a few words about your experience';
+  else if (form.text.trim().length < 10) errors.text = 'Please write at least 10 characters';
+  return errors;
+}
