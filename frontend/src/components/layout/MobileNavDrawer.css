@@ -9,12 +9,12 @@
 .mnd-panel {
   position: absolute;
   top: 0;
-  right: 0;
+  left: 0;
   width: 82%;
   max-width: 340px;
   height: 100%;
   background: #FFFFFF;
-  box-shadow: -8px 0 30px rgba(28, 36, 48, 0.15);
+  box-shadow: 8px 0 30px rgba(28, 36, 48, 0.15);
   padding: 26px 26px;
   display: flex;
   flex-direction: column;
