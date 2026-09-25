@@ -43,7 +43,7 @@ export function useSectionNav() {
 
   const goAbout = useCallback(() => goSection('why-choose-us'), [goSection]);
   const goAgents = useCallback(() => goSection('agents-section'), [goSection]);
-  const goLocations = useCallback(() => goSection('locations-section'), [goSection]);
+  const goOurOffice = useCallback(() => goSection('our-office'), [goSection]);
   const goPropertyGuide = useCallback(() => goSection('property-guide'), [goSection]);
   const goFaqs = useCallback(() => goSection('faqs'), [goSection]);
   const goBlog = useCallback(() => goSection('blog'), [goSection]);
@@ -52,7 +52,7 @@ export function useSectionNav() {
 
   return {
     goHome, goProperties, goFavorites, goBuy, goRent, goSell,
-    goAbout, goAgents, goLocations, goPropertyGuide, goFaqs, goBlog,
+    goAbout, goAgents, goOurOffice, goPropertyGuide, goFaqs, goBlog,
     preventDefault,
   };
 }

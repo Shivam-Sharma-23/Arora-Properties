@@ -12,7 +12,7 @@ function timeAgo(dateStr) {
 }
 
 export default function DashboardPage() {
-  const { properties, locations, experts, faqs, blogs, reviews } = useAdminData();
+  const { properties, experts, faqs, blogs, reviews } = useAdminData();
 
   const published = properties.filter((p) => p.status === 'published').length;
   const draft = properties.filter((p) => p.status === 'draft').length;
@@ -34,7 +34,6 @@ export default function DashboardPage() {
         <DashboardCard label="Total Properties" value={properties.length} />
         <DashboardCard label="Active Properties" value={published} />
         <DashboardCard label="Draft Properties" value={draft} />
-        <DashboardCard label="Total Locations" value={locations.length} />
         <DashboardCard label="Total Experts" value={experts.length} />
         <DashboardCard label="Total FAQs" value={faqs.length} />
         <DashboardCard label="Total Blog Posts" value={blogs.length} />

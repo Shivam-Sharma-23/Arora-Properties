@@ -21,7 +21,7 @@ export default function SettingsPage() {
       <div className="admin-card">
         <h3 className="admin-card-title">Persistence</h3>
         <p style={{ fontSize: 13.5, color: '#6B7280' }}>
-          Publishing a change (Hero, Locations, Experts, FAQs, Reviews, and Publish/Delete for Properties &amp; Blog)
+          Publishing a change (Hero, Experts, FAQs, Reviews, and Publish/Delete for Properties &amp; Blog)
           commits it straight to the GitHub repo via a Netlify Function, which triggers a redeploy — live for
           everyone in roughly 1-2 minutes. Draft properties/blog posts stay local to this browser until published.
         </p>
@@ -39,7 +39,7 @@ export default function SettingsPage() {
       <div className="admin-card">
         <h3 className="admin-card-title">Reset Demo Data</h3>
         <p style={{ fontSize: 13.5, color: '#6B7280' }}>
-          Restores properties, locations, experts, FAQs, blog posts and reviews to their original seed values.
+          Restores properties, experts, FAQs, blog posts and reviews to their original seed values.
           Any edits you've made will be lost.
         </p>
         <button className="admin-btn admin-btn-danger" onClick={() => setConfirmReset(true)}>Reset All Data</button>

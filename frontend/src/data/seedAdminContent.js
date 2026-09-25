@@ -1,6 +1,5 @@
 import { PROPERTIES } from './properties.js';
 import { AGENTS } from './agents.js';
-import { LOCATIONS } from './locations.js';
 import { FAQ_ITEMS } from './faqItems.js';
 import { BLOG_POSTS } from './blogPosts.js';
 import { generateId } from '../admin/utils/id.js';
@@ -101,10 +100,6 @@ function seedExperts() {
   return AGENTS.map((a) => ({ ...a }));
 }
 
-function seedLocations() {
-  return LOCATIONS.map((l) => ({ id: generateId('loc'), ...l }));
-}
-
 function seedFaqs() {
   return FAQ_ITEMS.map((f, i) => ({ id: generateId('faq'), order: i, ...f }));
 }
@@ -161,7 +156,6 @@ function seedHero() {
 export function seedAll() {
   return {
     properties: seedProperties(),
-    locations: seedLocations(),
     experts: seedExperts(),
     faqs: seedFaqs(),
     blogs: seedBlogs(),

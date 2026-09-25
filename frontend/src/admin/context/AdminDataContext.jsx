@@ -135,27 +135,6 @@ export function AdminDataProvider({ children }) {
 
   const getProperty = useCallback((id) => data.properties.find((p) => String(p.id) === String(id)), [data.properties]);
 
-  // ---- Locations ----
-  const addLocation = useCallback((loc) => {
-    const record = { id: generateId('loc'), ...loc };
-    commit({ ...dataRef.current, locations: [...dataRef.current.locations, record] }, { publish: true });
-  }, [commit]);
-  const updateLocation = useCallback((id, patch) => {
-    const locations = dataRef.current.locations.map((l) => (l.id === id ? { ...l, ...patch } : l));
-    commit({ ...dataRef.current, locations }, { publish: true });
-  }, [commit]);
-  const deleteLocation = useCallback((id) => {
-    const locations = dataRef.current.locations.filter((l) => l.id !== id);
-    commit({ ...dataRef.current, locations }, { publish: true });
-  }, [commit]);
-  const reorderLocation = useCallback((id, direction) => {
-    const list = [...dataRef.current.locations];
-    const idx = list.findIndex((l) => l.id === id);
-    const swapWith = idx + direction;
-    if (idx < 0 || swapWith < 0 || swapWith >= list.length) return;
-    [list[idx], list[swapWith]] = [list[swapWith], list[idx]];
-    commit({ ...dataRef.current, locations: list }, { publish: true });
-  }, [commit]);
 
   // ---- Experts ----
   const addExpert = useCallback((expert) => {
@@ -257,7 +236,6 @@ export function AdminDataProvider({ children }) {
   const value = useMemo(() => ({
     ...data,
     addProperty, updateProperty, deleteProperty, getProperty,
-    addLocation, updateLocation, deleteLocation, reorderLocation,
     addExpert, updateExpert, deleteExpert, reorderExpert,
     addFaq, updateFaq, deleteFaq, reorderFaq,
     addBlog, updateBlog, deleteBlog,
@@ -265,7 +243,6 @@ export function AdminDataProvider({ children }) {
     updateHero,
     resetAllData,
   }), [data, addProperty, updateProperty, deleteProperty, getProperty,
-    addLocation, updateLocation, deleteLocation, reorderLocation,
     addExpert, updateExpert, deleteExpert, reorderExpert,
     addFaq, updateFaq, deleteFaq, reorderFaq,
     addBlog, updateBlog, deleteBlog,

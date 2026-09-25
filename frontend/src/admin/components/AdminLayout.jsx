@@ -9,7 +9,6 @@ const TITLES = [
   { match: /^\/admin\/properties\/.+\/edit/, title: 'Edit Property' },
   { match: /^\/admin\/properties/, title: 'Properties' },
   { match: /^\/admin\/homepage\/hero/, title: 'Hero Section' },
-  { match: /^\/admin\/homepage\/locations/, title: 'Popular Locations' },
   { match: /^\/admin\/homepage\/experts/, title: 'Our Experts' },
   { match: /^\/admin\/faqs/, title: 'FAQs' },
   { match: /^\/admin\/blog/, title: 'Blog' },

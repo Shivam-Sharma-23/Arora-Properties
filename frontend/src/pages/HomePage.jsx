@@ -5,7 +5,7 @@ import SearchCard from '../components/home/SearchCard';
 import FeaturedProperties from '../components/home/FeaturedProperties';
 import WhyChooseUs from '../components/home/WhyChooseUs';
 import HowItWorks from '../components/home/HowItWorks';
-import PopularLocations from '../components/home/PopularLocations';
+import OurOffice from '../components/home/OurOffice';
 import AgentsSection from '../components/home/AgentsSection';
 import Testimonials from '../components/home/Testimonials';
 import PropertyGuideSection from '../components/home/PropertyGuideSection';
@@ -30,7 +30,7 @@ export default function HomePage() {
       <FeaturedProperties />
       <WhyChooseUs />
       <HowItWorks />
-      <PopularLocations />
+      <OurOffice />
       <AgentsSection />
       <Testimonials />
       <div style={{ maxWidth: 900, margin: '0 auto', padding: '0 32px 100px' }}>

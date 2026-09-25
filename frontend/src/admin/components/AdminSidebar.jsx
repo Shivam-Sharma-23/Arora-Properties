@@ -1,7 +1,7 @@
 import { NavLink } from 'react-router-dom';
 import {
   IconDashboard, IconBuilding, IconPlusCircle, IconList, IconHome,
-  IconMapPin, IconUsers, IconHelp, IconFileText, IconStar, IconSettings, IconLogOut,
+  IconUsers, IconHelp, IconFileText, IconStar, IconSettings, IconLogOut,
 } from './icons';
 import { setAdminAuthed } from '../AdminGuard';
 
@@ -18,7 +18,6 @@ const NAV = [
     section: 'Homepage',
     items: [
       { to: '/admin/homepage/hero', icon: IconHome, label: 'Hero Section' },
-      { to: '/admin/homepage/locations', icon: IconMapPin, label: 'Popular Locations' },
       { to: '/admin/homepage/experts', icon: IconUsers, label: 'Our Experts' },
     ],
   },

@@ -2,7 +2,7 @@ import { useSectionNav } from '../../hooks/useSectionNav';
 import './Footer.css';
 
 export default function Footer() {
-  const { goBuy, goRent, goProperties, goLocations, goAbout, goAgents, goPropertyGuide, goFaqs, goBlog, preventDefault } = useSectionNav();
+  const { goBuy, goRent, goProperties, goAbout, goAgents, goOurOffice, goPropertyGuide, goFaqs, goBlog, preventDefault } = useSectionNav();
 
   return (
     <footer className="footer">
@@ -30,7 +30,6 @@ export default function Footer() {
               <a onClick={goBuy}>Buy</a>
               <a onClick={goRent}>Rent</a>
               <a onClick={goProperties}>Properties</a>
-              <a onClick={goLocations}>Locations</a>
             </div>
           </div>
           <div className="footer-col">
@@ -38,6 +37,7 @@ export default function Footer() {
             <div className="footer-col-links">
               <a onClick={goAbout}>About</a>
               <a onClick={goAgents}>Agents</a>
+              <a onClick={goOurOffice}>Our Office</a>
               <a onClick={preventDefault}>Careers</a>
               <a onClick={preventDefault}>Contact</a>
             </div>

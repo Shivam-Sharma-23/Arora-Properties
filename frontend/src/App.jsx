@@ -13,7 +13,6 @@ import DashboardPage from './admin/pages/DashboardPage';
 import AllPropertiesPage from './admin/pages/properties/AllPropertiesPage';
 import PropertyFormPage from './admin/pages/properties/PropertyFormPage';
 import HeroCmsPage from './admin/pages/homepage/HeroCmsPage';
-import LocationsCmsPage from './admin/pages/homepage/LocationsCmsPage';
 import ExpertsCmsPage from './admin/pages/homepage/ExpertsCmsPage';
 import FaqCmsPage from './admin/pages/content/FaqCmsPage';
 import BlogCmsPage from './admin/pages/content/BlogCmsPage';
@@ -39,7 +38,6 @@ export default function App() {
         <Route path="properties/add" element={<PropertyFormPage />} />
         <Route path="properties/:id/edit" element={<PropertyFormPage />} />
         <Route path="homepage/hero" element={<HeroCmsPage />} />
-        <Route path="homepage/locations" element={<LocationsCmsPage />} />
         <Route path="homepage/experts" element={<ExpertsCmsPage />} />
         <Route path="faqs" element={<FaqCmsPage />} />
         <Route path="blog" element={<BlogCmsPage />} />
