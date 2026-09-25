@@ -18,7 +18,7 @@ export default function ContactAgentModal({ agent, property, onClose }) {
       <div className="contact-modal" onClick={(e) => e.stopPropagation()}>
         <SafeImage src={agent.photo} alt={'Portrait of ' + agent.name} style={{ width: 72, height: 72, borderRadius: '50%', margin: '0 auto 16px' }} />
         <h3 style={{ fontFamily: "'Manrope', sans-serif", fontWeight: 700, fontSize: 19, color: '#1C2430', margin: '0 0 4px' }}>{agent.name}</h3>
-        <p style={{ fontSize: 14, color: '#6B7280', margin: '0 0 24px' }}>{agent.role} · {agent.location}</p>
+        <p style={{ fontSize: 14, color: '#6B7280', margin: '0 0 24px' }}>{agent.role}</p>
         <div style={{ display: 'flex', flexDirection: 'column', gap: 10 }}>
           <a href="tel:+919667417207" className="contact-call-btn">
             <svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="#fff" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round">

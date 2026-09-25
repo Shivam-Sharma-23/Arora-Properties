@@ -98,7 +98,7 @@ function seedProperties() {
 }
 
 function seedExperts() {
-  return AGENTS.map((a) => ({ ...a, managedProperties: a.listings }));
+  return AGENTS.map((a) => ({ ...a }));
 }
 
 function seedLocations() {
