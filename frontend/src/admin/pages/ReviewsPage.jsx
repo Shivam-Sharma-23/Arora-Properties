@@ -18,7 +18,7 @@ export default function ReviewsPage() {
       <div className="admin-page-header">
         <div>
           <h1>Reviews</h1>
-          <p>{reviews.length} total · approved reviews appear on the property detail page.</p>
+          <p>{reviews.length} total · approved reviews appear on the property detail page and in the homepage's "What Our Clients Say" section.</p>
         </div>
         <div className="admin-page-actions">
           <select className="admin-select" value={statusFilter} onChange={(e) => setStatusFilter(e.target.value)}>

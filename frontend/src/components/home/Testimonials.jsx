@@ -1,18 +1,28 @@
 import { useEffect, useState } from 'react';
-import { TESTIMONIALS } from '../../data/testimonials';
+import { useAdminData } from '../../admin/context/AdminDataContext';
 import './Testimonials.css';
 
 export default function Testimonials() {
+  const { reviews } = useAdminData();
   const [index, setIndex] = useState(0);
 
+  const featured = reviews
+    .filter((r) => r.status === 'approved')
+    .sort((a, b) => b.rating - a.rating || new Date(b.date) - new Date(a.date))
+    .slice(0, 4);
+
   useEffect(() => {
+    if (featured.length < 2) return undefined;
     const timer = setInterval(() => {
-      setIndex((i) => (i + 1) % TESTIMONIALS.length);
+      setIndex((i) => (i + 1) % featured.length);
     }, 6000);
     return () => clearInterval(timer);
-  }, []);
+  }, [featured.length]);
 
-  const testimonial = TESTIMONIALS[index];
+  if (featured.length === 0) return null;
+
+  const safeIndex = index % featured.length;
+  const testimonial = featured[safeIndex];
   const stars = [0, 1, 2, 3, 4].filter((i) => i < Math.round(testimonial.rating));
 
   return (
@@ -26,19 +36,21 @@ export default function Testimonials() {
             </svg>
           ))}
         </div>
-        <p className="testimonial-quote">"{testimonial.text}"</p>
-        <p className="testimonial-name">{testimonial.name}</p>
-        <p className="testimonial-location">{testimonial.location}</p>
-        <div className="testimonial-dots">
-          {TESTIMONIALS.map((t, i) => (
-            <button
-              key={t.name}
-              className={'testimonial-dot' + (i === index ? ' active' : '')}
-              aria-label="Show testimonial"
-              onClick={() => setIndex(i)}
-            />
-          ))}
-        </div>
+        <p className="testimonial-quote">"{testimonial.reviewText}"</p>
+        <p className="testimonial-name">{testimonial.reviewerName}</p>
+        <p className="testimonial-location">{testimonial.propertyTitle}</p>
+        {featured.length > 1 && (
+          <div className="testimonial-dots">
+            {featured.map((t, i) => (
+              <button
+                key={t.id}
+                className={'testimonial-dot' + (i === safeIndex ? ' active' : '')}
+                aria-label="Show testimonial"
+                onClick={() => setIndex(i)}
+              />
+            ))}
+          </div>
+        )}
       </div>
     </section>
   );
