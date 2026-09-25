@@ -6,7 +6,7 @@ import './FeaturedProperties.css';
 
 export default function FeaturedProperties() {
   const { isFavorite, toggleFavorite } = useFavorites();
-  const { goProperties } = useSectionNav();
+  const { goRent } = useSectionNav();
   const { properties } = useAdminData();
   const featured = properties.filter((p) => p.status === 'published' && p.featured).slice(0, 6).map(derivePublicProperty);
 
@@ -22,7 +22,7 @@ export default function FeaturedProperties() {
         ))}
       </div>
       <div className="featured-cta-row">
-        <button className="outline-btn" onClick={goProperties}>View All Properties</button>
+        <button className="outline-btn" onClick={goRent}>View All Properties</button>
       </div>
     </section>
   );
