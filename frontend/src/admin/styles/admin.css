@@ -1054,7 +1054,7 @@
 
 @media (max-width: 900px) {
   .admin-sidebar { display: none; }
-  .admin-sidebar.mobile-open { display: flex; height: 100%; }
+  .admin-mobile-drawer .admin-sidebar { display: flex; width: 100%; height: 100%; }
   .admin-topbar { display: flex; }
   .admin-content { padding: 22px 18px 50px; }
 }
