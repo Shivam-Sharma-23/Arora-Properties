@@ -4,7 +4,7 @@ import './MobileNavDrawer.css';
 
 export default function MobileNavDrawer({ onClose }) {
   const { favorites } = useFavorites();
-  const { goBuy, goRent, goSell, goAgents, goLocations, goAbout, goFavorites } = useSectionNav();
+  const { goBuy, goRent, goSell, goAgents, goAbout, goFavorites } = useSectionNav();
 
   const withClose = (fn) => () => {
     onClose();
@@ -25,7 +25,6 @@ export default function MobileNavDrawer({ onClose }) {
         <a className="mnd-link" onClick={withClose(goRent)}>Rent</a>
         <a className="mnd-link" onClick={withClose(goSell)}>Sell</a>
         <a className="mnd-link" onClick={withClose(goAgents)}>Agents</a>
-        <a className="mnd-link" onClick={withClose(goLocations)}>Locations</a>
         <a className="mnd-link" onClick={withClose(goAbout)}>About</a>
         <a className="mnd-link" onClick={withClose(goFavorites)}>Favorites ({favorites.length})</a>
         <button className="mnd-cta" onClick={withClose(goSell)}>List Your Property</button>

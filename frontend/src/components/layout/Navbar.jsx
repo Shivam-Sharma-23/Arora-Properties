@@ -6,7 +6,7 @@ import './Navbar.css';
 export default function Navbar({ onToggleMobileNav }) {
   const [scrolled, setScrolled] = useState(false);
   const { favorites } = useFavorites();
-  const { goHome, goBuy, goRent, goSell, goAgents, goLocations, goAbout, goFavorites } = useSectionNav();
+  const { goHome, goBuy, goRent, goSell, goAgents, goAbout, goFavorites } = useSectionNav();
 
   useEffect(() => {
     const onScroll = () => setScrolled(window.scrollY > 12);
@@ -30,7 +30,6 @@ export default function Navbar({ onToggleMobileNav }) {
           <a className="navbar-link" onClick={goRent}>Rent</a>
           <a className="navbar-link" onClick={goSell}>Sell</a>
           <a className="navbar-link" onClick={goAgents}>Agents</a>
-          <a className="navbar-link" onClick={goLocations}>Locations</a>
           <a className="navbar-link" onClick={goAbout}>About</a>
         </nav>
 
