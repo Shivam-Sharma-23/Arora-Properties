@@ -9,8 +9,8 @@ export default function SearchFilterBar({ searchQuery, onSearchQueryChange, filt
   return (
     <div className="pf-bar">
       <div className="pf-tabs">
-        <button className={'pf-tab' + (buyRent === 'buy' ? ' active' : '')} onClick={() => setBuyRent('buy')}>Buy</button>
-        <button className={'pf-tab' + (buyRent === 'rent' ? ' active' : '')} onClick={() => setBuyRent('rent')}>Rent</button>
+        <button className={'pf-tab' + (buyRent === 'buy' ? ' active' : '')} onClick={() => { setBuyRent('buy'); onFilterChange({ priceMax: 70000000 }); }}>Buy</button>
+        <button className={'pf-tab' + (buyRent === 'rent' ? ' active' : '')} onClick={() => { setBuyRent('rent'); onFilterChange({ priceMax: 70000000 }); }}>Rent</button>
       </div>
       <div className="pf-fields" data-search-grid-5="true">
         <div className="pf-field">
@@ -30,10 +30,21 @@ export default function SearchFilterBar({ searchQuery, onSearchQueryChange, filt
           <label>Budget</label>
           <select value={filters.priceMax} onChange={(e) => onFilterChange({ priceMax: parseInt(e.target.value, 10) })}>
             <option value="70000000">Any budget</option>
-            <option value="2000000">Under ₹20L</option>
-            <option value="20000000">Under ₹2 Cr</option>
-            <option value="40000000">Under ₹4 Cr</option>
-            <option value="70000000">Under ₹7 Cr</option>
+            {buyRent === 'rent' ? (
+              <>
+                <option value="25000">Under ₹25,000</option>
+                <option value="50000">Under ₹50,000</option>
+                <option value="100000">Under ₹1,00,000</option>
+                <option value="200000">Under ₹2,00,000</option>
+              </>
+            ) : (
+              <>
+                <option value="2000000">Under ₹20L</option>
+                <option value="20000000">Under ₹2 Cr</option>
+                <option value="40000000">Under ₹4 Cr</option>
+                <option value="70000000">Under ₹7 Cr</option>
+              </>
+            )}
           </select>
         </div>
         <div className="pf-field">

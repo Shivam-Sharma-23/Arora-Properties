@@ -15,7 +15,10 @@ export default function SearchCard() {
   const handleSearch = () => {
     const params = new URLSearchParams();
     if (heroType !== 'Any') params.set('type', heroType);
-    if (heroPrice !== 'Any') params.set('priceMax', String(parseInt(heroPrice, 10) * 10000000));
+    if (heroPrice !== 'Any') {
+      const priceMax = buyRent === 'rent' ? parseInt(heroPrice, 10) : parseInt(heroPrice, 10) * 10000000;
+      params.set('priceMax', String(priceMax));
+    }
     if (heroLocation) params.set('q', heroLocation);
     navigate('/properties?' + params.toString());
     window.scrollTo({ top: 0, behavior: 'auto' });
@@ -25,8 +28,8 @@ export default function SearchCard() {
     <div className="search-card-wrap">
       <div className="search-card">
         <div className="search-tabs">
-          <button className={'search-tab' + (buyRent === 'buy' ? ' active' : '')} onClick={() => setBuyRent('buy')}>Buy</button>
-          <button className={'search-tab' + (buyRent === 'rent' ? ' active' : '')} onClick={() => setBuyRent('rent')}>Rent</button>
+          <button className={'search-tab' + (buyRent === 'buy' ? ' active' : '')} onClick={() => { setBuyRent('buy'); setHeroPrice('Any'); }}>Buy</button>
+          <button className={'search-tab' + (buyRent === 'rent' ? ' active' : '')} onClick={() => { setBuyRent('rent'); setHeroPrice('Any'); }}>Rent</button>
         </div>
         <div className="search-fields" data-search-grid="true">
           <div className="search-field">
@@ -46,9 +49,20 @@ export default function SearchCard() {
             <label>Price Range</label>
             <select value={heroPrice} onChange={(e) => setHeroPrice(e.target.value)}>
               <option value="Any">Any budget</option>
-              <option value="2">Under ₹2 Cr</option>
-              <option value="4">Under ₹4 Cr</option>
-              <option value="7">Under ₹7 Cr</option>
+              {buyRent === 'rent' ? (
+                <>
+                  <option value="25000">Under ₹25,000</option>
+                  <option value="50000">Under ₹50,000</option>
+                  <option value="100000">Under ₹1,00,000</option>
+                  <option value="200000">Under ₹2,00,000</option>
+                </>
+              ) : (
+                <>
+                  <option value="2">Under ₹2 Cr</option>
+                  <option value="4">Under ₹4 Cr</option>
+                  <option value="7">Under ₹7 Cr</option>
+                </>
+              )}
             </select>
           </div>
           <button className="search-submit" onClick={handleSearch}>
