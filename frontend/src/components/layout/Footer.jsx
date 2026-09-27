@@ -1,4 +1,5 @@
 import { useSectionNav } from '../../hooks/useSectionNav';
+import { waLink } from '../../data/constants';
 import './Footer.css';
 
 export default function Footer() {
@@ -38,8 +39,7 @@ export default function Footer() {
               <a onClick={goAbout}>About</a>
               <a onClick={goAgents}>Agents</a>
               <a onClick={goOurOffice}>Our Office</a>
-              <a onClick={preventDefault}>Careers</a>
-              <a onClick={preventDefault}>Contact</a>
+              <a href={waLink('Hi Arora Properties, I would like to get in touch.')} target="_blank" rel="noopener noreferrer">Contact</a>
             </div>
           </div>
           <div className="footer-col">
