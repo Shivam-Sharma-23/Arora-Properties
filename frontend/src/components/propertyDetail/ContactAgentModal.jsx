@@ -11,7 +11,8 @@ export default function ContactAgentModal({ agent, property, onClose }) {
     showToast('Your message has been sent to the agent.');
   };
 
-  const whatsappLink = waLink('Hi Arora Properties, I am interested in ' + property.title + ' (' + property.location + ').');
+  const propertyUrl = window.location.origin + '/property/' + property.id;
+  const whatsappLink = waLink('Hi Arora Properties, I am interested in ' + property.title + ' (' + property.location + '). ' + propertyUrl);
 
   return (
     <div className="contact-modal-backdrop" onClick={onClose}>

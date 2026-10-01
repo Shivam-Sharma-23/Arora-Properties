@@ -12,7 +12,8 @@ export default function PropertyCard({ property, favorite, onToggleFavorite }) {
     onToggleFavorite(property.id);
   };
   const stop = (e) => e.stopPropagation();
-  const whatsappLink = waLink('Hi Arora Properties, I am interested in ' + property.title + ' (' + property.location + ').');
+  const propertyUrl = window.location.origin + '/property/' + property.id;
+  const whatsappLink = waLink('Hi Arora Properties, I am interested in ' + property.title + ' (' + property.location + '). ' + propertyUrl);
 
   return (
     <div className="pc-card" onClick={handleView}>
