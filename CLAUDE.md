@@ -42,9 +42,25 @@ historical reference.
 The backend's `ALLOWED_ORIGIN` env var (set on Render, not committed) must
 include this frontend's deployed origin(s), comma-separated, or the browser
 blocks the fetch calls above. Currently set to
-`https://weblynk-arora-properties.netlify.app,http://localhost:5173,http://localhost:5174`
-in the backend's local `.env.render` reference file — confirm the same
-value is actually saved on Render's dashboard.
+`https://arora-properties-alpha.vercel.app,https://weblynk-arora-properties.netlify.app,http://localhost:5173,http://localhost:5174`
+in the backend's local `.env.render` reference file — verified 2026-10-04
+against the live Render dashboard value via a direct CORS preflight check
+(both the Vercel and Netlify origins get a matching
+`Access-Control-Allow-Origin` echo back from the live backend).
+
+## Deployment hosts
+
+Deployed to **both** Netlify and Vercel from this same repo (see
+`netlify.toml` / `vercel.json`) — Vercel at
+**https://arora-properties-alpha.vercel.app** is currently the working
+deployment. The Netlify deployment
+(`https://weblynk-arora-properties.netlify.app`) is currently non-functional
+because that Netlify account has exhausted its free-tier build-minute
+credits (confirmed 2026-10-04) — this is a billing/quota issue, not a code
+or CORS problem. The Netlify site/config has been left in place rather than
+deleted, since it's free to leave idle and credits reset monthly; treat
+Vercel as the canonical deployed origin until Netlify is restored or
+explicitly removed.
 
 ## Credentials
 
